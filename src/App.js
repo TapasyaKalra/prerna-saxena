@@ -19,7 +19,7 @@ function App() {
         <Navigation/>
         <Routes>
           <Route path="/about" element={<About/>}/>
-          <Route path="/therapy" element={<Therapy/>}/>
+          <Route path="/testimonials" element={<Therapy/>}/>
           <Route path="/contact" element={<Contact />} />
           <Route path="/newsletter" element={<Newsletter/>}/>
           <Route path="/services" element={<Services/>}/>
