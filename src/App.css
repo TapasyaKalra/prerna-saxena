@@ -15,7 +15,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding-top: 5.5%; }
+  padding-top: MIN(75px); }
 
 a {
   text-decoration: none !important; }

@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import ScrollToTop from './components/ScrollToTop';
 import Services from './components/Services';
+import Community from './components/Community';
 
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/testimonials" element={<Therapy/>}/>
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/therapy" element={<Therapy />} />
+          <Route path="/community" element={<Community />} />
           <Route path="/newsletter" element={<Newsletter/>}/>
-          <Route path="/services" element={<Services/>}/>
           <Route path="/" element={<About/>}/>
         </Routes>
         <Footer/>
