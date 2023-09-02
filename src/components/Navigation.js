@@ -18,13 +18,14 @@ function Navigation() {
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto text-secondary">
-              <Nav.Link eventKey="1"><NavLink  exact className="nav-link" to="/about" activeClassName="active" aria-current="page">About</NavLink >
-              </Nav.Link>
-              <Nav.Link eventKey="2"><NavLink className="nav-link" to="/therapy">Therapy</NavLink ></Nav.Link>
-              <Nav.Link eventKey="3"><NavLink className="nav-link" to="/newsletter">Newsletter</NavLink ></Nav.Link>
-              <Nav.Link eventKey="4"><NavLink className="nav-link" to="/contact" >Contact</NavLink ></Nav.Link>
-          </Nav>
+            <Nav className="ms-auto text-secondary ">
+              <Nav.Link eventKey="1"><NavLink exact className="nav-link" to="/about" activeClassName="active" aria-current="page">About</NavLink ></Nav.Link>
+              <Nav.Link eventKey="2"><NavLink className="nav-link" to="/therapy">Testimonials</NavLink ></Nav.Link>
+              <Nav.Link eventKey="3"><NavLink className="nav-link" to="/services">Services</NavLink ></Nav.Link>
+              <Nav.Link eventKey="4"><NavLink className="nav-link" to="/newsletter">Newsletter</NavLink ></Nav.Link>
+              <Nav.Link eventKey="5"><NavLink className="nav-link" to="/contact">Contact</NavLink ></Nav.Link>
+              
+            </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
