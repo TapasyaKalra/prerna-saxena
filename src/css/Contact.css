@@ -1,0 +1,18 @@
+.contact__header{
+    background: url("../../public/assets/images/xx.jpeg");
+  background-color: black;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+   background-position: center ; 
+  min-height: 90vh;
+}
+.contact a{
+    color:black;
+    text-decoration: none;
+}
+.contact a:hover{
+    color:rgba(0, 0, 0, 0.459)
+}
+.contact-link{
+    font-size: 1rem;
+}

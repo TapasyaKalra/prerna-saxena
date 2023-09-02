@@ -1,0 +1,8 @@
+.therapy__logo{
+    object-fit: contain;
+    max-height:50vh;
+}
+.insta-button:hover{
+    color:rgb(88, 88, 88)
+}
+

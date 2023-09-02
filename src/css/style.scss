@@ -1,0 +1,74 @@
+$primary : #b5cfe8;
+$secondary:#00102E;
+$dark:#00102E;
+$light:#F3F3F3;
+$font-size-base:1.1rem;
+@font-face {
+    font-family: lora;
+    src: url(css/lora/Lora-Regular.ttf);
+  }
+@font-face {
+    font-family: halimun;
+    src: url(css/halimun/Halimun.ttf);
+  }
+*{
+    margin:0px;
+    font-family: lora, sans-serif;
+}
+body{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+a{
+  text-decoration: none !important
+}
+.m-top-100{
+  margin-top: 100px !important
+}
+.m-bottom-100{
+  margin-bottom: 100px !important
+}
+.m-top-50{
+  margin-top: 50px !important
+}
+.active{
+  text-decoration: underline solid #E4EDFF 1px !important;
+  text-underline-offset:7px;
+}
+h2,h3{
+  color: #00102E !important;
+}
+.heading-underline{
+  width: 15vw !important;
+}
+#navigation-title{
+  font-family: halimun, sans-serif;
+  font-size: 1.2rem !important;
+}
+@media (max-width: 768px){
+  .col-md-6,.col-md-5{
+    padding-bottom:50px
+  }
+
+}
+@media (max-width: 992px){
+  .col-lg-5{
+    padding-bottom:50px
+  }
+
+}
+@media (max-width: 500px){
+  #navigation-title{
+    font-size: 0.8rem !important;
+  }
+
+}
+@media (max-width: 400px){
+  #navigation-title{
+    font-size: 0.6rem !important;
+  }
+
+}
+@import "node_modules/bootstrap/scss/bootstrap";
