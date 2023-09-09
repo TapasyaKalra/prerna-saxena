@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import CLIENT from "../testimonials/client";
 
 function TestimonialCarousel(props) {
 	const [index, setIndex] = useState(0);
@@ -29,7 +30,6 @@ function TestimonialCarousel(props) {
 
 	return (
 		<div className="testimonials">
-			<p>{type}</p>
 			<Carousel
 				activeIndex={index}
 				onSelect={handleSelect}
@@ -44,6 +44,9 @@ function TestimonialCarousel(props) {
 					<Carousel.Caption>
 						{stars()}
 						<p>
+							{CLIENT.map((item) => (
+								<li key={item.id}>{item.testimonial}</li>
+							))}
 							If you're reading this to decide on your therapy
 							journey, I recommend you to book an appointment with
 							Prerna. I have been in therapy for a long time and

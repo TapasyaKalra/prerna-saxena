@@ -11,7 +11,6 @@ function Testimonials() {
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
 	const history = useNavigate();
-
 	const addTestimonial = async (message, name, email, today) => {
 		try {
 			const docRef = await addDoc(collection(db, "testimonials-saved"), {
