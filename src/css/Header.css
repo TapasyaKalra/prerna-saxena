@@ -19,9 +19,13 @@
   background: transparent;
   background-clip: content-box;
   backdrop-filter: blur(50px); 
-  border:none;
+  border:1px solid #b5cfe8a6;
+  border-top-color: transparent;
   padding-left:10px;
-  border-radius:20px;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 .nav-dropdown-item{
   background-color: transparent;
