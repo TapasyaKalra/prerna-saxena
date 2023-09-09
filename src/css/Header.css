@@ -14,7 +14,8 @@
 #navigation-title{
   font-size: 1.8em;
 }
-.dropdown-menu{
+
+.dropdown-menu:has(.blur-effect){
   margin-top:1rem !important;
   background: transparent;
   background-clip: content-box;
