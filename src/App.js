@@ -1,6 +1,7 @@
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './App.css';
 import Therapy from './components/Therapy';
+import Testimonials from './components/Testimonials';
 import About from './components/About';
 import Newsletter from './components/Newsletter';
 import Contact from './components/Contact';
@@ -20,7 +21,7 @@ function App() {
         <Navigation/>
         <Routes>
           <Route path="/about" element={<About/>}/>
-          <Route path="/testimonials" element={<Therapy/>}/>
+          <Route path="/testimonials" element={<Testimonials/>}/>
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
           <Route path="/therapy" element={<Therapy />} />
