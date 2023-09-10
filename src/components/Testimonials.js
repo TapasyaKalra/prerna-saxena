@@ -61,10 +61,10 @@ function Testimonials() {
 		<>
 			<div className="container m-top-100 m-bottom-100">
 				<div className="row">
-					<p className="fw-bold text-center">
+					<h2 className="fw-bold text-center">
 						Here's what clients at Therapeutically Yours and my
 						fellow professionals have to say…
-					</p>
+					</h2>
 				</div>
 			</div>
 			{/* client testimonials */}
@@ -73,7 +73,7 @@ function Testimonials() {
 					<h3 className="fw-bold"> testimonials by clients:</h3>
 				</div>
 			</div>
-			<div className="container-fluid testimonials m-bottom-100">
+			<div className="container-fluid testimonials m-bottom-100 m-top-50">
 				<div className="row justify-content-center">
 					<div className="col-12 px-0 ">
 						<TestimonialCarousel type="client" />
@@ -86,23 +86,31 @@ function Testimonials() {
 					<h3 className="fw-bold"> testimonials by colleagues:</h3>
 				</div>
 			</div>
-			<div className="container-fluid testimonials m-bottom-100">
+			<div className="container-fluid testimonials m-top-50 m-bottom-100">
 				<div className="row justify-content-center">
 					<div className="col-12 px-0 ">
 						<TestimonialCarousel type="colleague" />
 					</div>
 				</div>
 			</div>
+			{/* write a testimonial */}
 			<div className="container">
 				<div className="row m-top-100">
+					<h3 className="fw-bold text-center">write a testimonial</h3>
+				</div>
+				<div className="row m-top-50">
 					<div className="col-12 col-md-6 px-5 border-end">
 						<p>
-							"I honour the courage & vulnerability it takes to
-							ask for help; to look within & embrace ourselves. I
-							feel gratitude towards my clients for inviting me to
-							work alongside them in their healing journey and to
-							provide support as they encounter various challenges
-							and transitions in life."
+							If you're a client who has been in the therapeutic
+							process with me, or a colleague who has worked
+							together in any professional capacity, please leave
+							a testimonial in the box. I'll be happy to hear from
+							you. Disclaimer: Name and email address is only
+							being asked for my knowledge. I respect your privacy
+							and promise to maintain it. When the testimonial is
+							shared on the website, social media or any other
+							platform for professional purposes, your name will
+							always remain anonymous.
 						</p>
 						<p>
 							Disclaimer: Name and email address is only being
@@ -112,7 +120,6 @@ function Testimonials() {
 							or for other professional purposes, your name will
 							always be marked as 'Client'.
 						</p>
-						<p>Looking forward to reading your responses.</p>
 					</div>
 					<div className="col-12 col-md-6 px-5">
 						<form onSubmit={handleSubmit}>
