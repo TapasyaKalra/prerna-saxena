@@ -3,13 +3,16 @@ import { Carousel } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import CLIENT from "../testimonials/client";
+import COLLEAGUE from "../testimonials/colleague";
 
 function TestimonialCarousel(props) {
 	const [index, setIndex] = useState(0);
 	const handleSelect = (selectedIndex, e) => {
 		setIndex(selectedIndex);
 	};
-	var type = "";
+	var data = [];
+	props.type === "client" ? (data = CLIENT) : (data = COLLEAGUE);
+
 	const stars = () => {
 		return (
 			<>
@@ -21,16 +24,30 @@ function TestimonialCarousel(props) {
 			</>
 		);
 	};
-	if (props.type === "client") {
-		type = props.type;
-	} else if (props.type === "colleague") {
-		type = props.type;
-	} else {
-	}
 
 	return (
 		<div className="testimonials">
 			<Carousel
+				activeIndex={index}
+				onSelect={handleSelect}
+				interval={null}
+			>
+				{data.map((item) => (
+					<Carousel.Item key={item.id}>
+						<img
+							className="d-block w-100"
+							src="assets/images/testimonial-bg.png"
+							alt={item.testimonial}
+						/>
+						<Carousel.Caption>
+							{stars()}
+
+							<p>{item.testimonial}</p>
+						</Carousel.Caption>
+					</Carousel.Item>
+				))}
+			</Carousel>
+			{/* <Carousel
 				activeIndex={index}
 				onSelect={handleSelect}
 				interval={null}
@@ -158,7 +175,7 @@ function TestimonialCarousel(props) {
 						</p>
 					</Carousel.Caption>
 				</Carousel.Item>
-			</Carousel>
+			</Carousel> */}
 		</div>
 	);
 }
