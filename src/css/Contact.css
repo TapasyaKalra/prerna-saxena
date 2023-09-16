@@ -1,18 +1,25 @@
-.contact__header{
-    background: url("../../public/assets/images/xx.jpeg");
-  background-color: black;
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-   background-position: center ; 
-  min-height: 90vh;
+.contact__header {
+	background: url("../../public/assets/images/xx.jpeg");
+	background-color: black;
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	background-position: center;
+	min-height: 90vh;
 }
-.contact a{
-    color:black;
-    text-decoration: none;
+.contact a {
+	color: black;
+	text-decoration: none;
 }
-.contact a:hover{
-    color:rgba(0, 0, 0, 0.459)
+.contact a:hover {
+	color: rgba(0, 0, 0, 0.459) !important;
+	font-weight: bolder;
+	background-color: #b5cfe846;
 }
-.contact-link{
-    font-size: 1rem;
+.contact-link {
+	font-size: 1rem;
+}
+@media (max-width: 400px) {
+	.contact-link {
+		overflow: scroll;
+	}
 }
