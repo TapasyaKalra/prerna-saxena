@@ -172,14 +172,14 @@ function Therapy() {
 							<Carousel.Item>
 								<img
 									className="w-100"
-									src="assets/images/couples-therapy/couples-therapy.jpg"
+									src="assets/images/couples-therapy/CT1.png"
 									alt="First slide"
 								/>
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className="w-100"
-									src="assets/images/family-therapy/family-therapy.jpg"
+									src="assets/images/family-therapy/FT1.png"
 									alt="Second slide"
 								/>
 							</Carousel.Item>
@@ -231,57 +231,7 @@ function Therapy() {
 						</p>
 					</div>
 				</div>
-				<div className="row m-top-100">
-					<h2 className="text-center">Support Groups</h2>
-					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
-				</div>
-				<div className="row m-top-50 justify-content-center">
-					<div className="col-12 col-md-5">
-						<img
-							className="w-100"
-							src="assets/images/support-groups/support-groups.png"
-							alt="First slide"
-						/>
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://forms.gle/UPTZd4CKpjPCeszf8"
-							className="btn btn-outline-primary text-dark w-100"
-						>
-							Book Now
-						</a>
-					</div>
-					<div className="col-12 col-md-5">
-						<p>
-							I believe that we as human beings have the strength,
-							understanding and care in us to be vulnerable and
-							provide someone the space to be so too. We are meant
-							to lean on each other for support and learn from
-							each other in our journey of life.
-						</p>
-						<p>
-							Keeping this in mind, I am running support groups on
-							the topics presented in the list. Currently the
-							support groups are only open for females from the
-							age group of 21 years to 50 years. In order for it
-							to be a safe and open space, and for participants to
-							be able to make the most out of it, the support
-							groups have limited seats.
-						</p>
-						<p>
-							<span className="fw-bold">Age group</span>: 20-50
-							years
-							<br />
-							<span className="fw-bold">
-								Duration of each session
-							</span>
-							: 75-90 minutes
-							<br />
-							<span className="fw-bold">Mode of session</span>:
-							Video call
-						</p>
-					</div>
-				</div>
+
 				<div className="row m-top-100">
 					<hr />
 				</div>
