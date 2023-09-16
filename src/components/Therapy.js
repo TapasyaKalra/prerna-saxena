@@ -26,6 +26,7 @@ function Therapy() {
 			</div>
 
 			<div className="container">
+				{/* heading */}
 				<div className="row m-top-50">
 					<h2 className="text-center fw-bold">
 						Welcome to Therapeutically Yours. I provide mental
