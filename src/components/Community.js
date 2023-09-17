@@ -134,7 +134,7 @@ export default function Community() {
 						updates.
 					</p>
 					<p>Here are some of the themes available on the page:</p>
-					<ul>
+					<ul className="mx-3">
 						<li>
 							<span className="fw-bold">All Things Therapy!</span>
 							- A complete guide to the world of therapy.
