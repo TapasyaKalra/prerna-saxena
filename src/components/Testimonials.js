@@ -112,14 +112,6 @@ function Testimonials() {
 							platform for professional purposes, your name will
 							always remain anonymous.
 						</p>
-						<p>
-							Disclaimer: Name and email address is only being
-							asked for my knowledge. I respect your privacy and I
-							promise to maintain it. At any point of time if the
-							testimonial is shared on the website, social media
-							or for other professional purposes, your name will
-							always be marked as 'Client'.
-						</p>
 					</div>
 					<div className="col-12 col-md-6 px-5">
 						<form onSubmit={handleSubmit}>

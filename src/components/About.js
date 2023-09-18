@@ -102,8 +102,7 @@ function About() {
 							Certificate in Digital Marketing, Certification in
 							Graphology and many more. I have received awards or
 							recognition from the Delhi Police and UNICEF India
-							for volunteer services. change, and I am filled with
-							gratitude for the work I get to do everyday.
+							for volunteer services.
 						</p>
 					</div>
 					<div className="col-12 col-md-5 order-4 order-lg-3 m-top-50 align-self-center">
