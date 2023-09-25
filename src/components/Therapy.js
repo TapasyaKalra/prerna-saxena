@@ -120,7 +120,7 @@ function Therapy() {
 							href="https://forms.gle/6KbZRafGrtN9bpyt6"
 							className="btn btn-outline-primary text-dark w-100"
 						>
-							Book Now
+							Register Here
 						</a>
 					</div>
 					<div className="col-12 col-md-5">
@@ -192,7 +192,7 @@ function Therapy() {
 							href="https://forms.gle/FMUfwoe47WQBCZQH9"
 							className="btn btn-outline-primary text-dark w-100"
 						>
-							Book Now
+							Register Here
 						</a>
 					</div>
 					<div className="col-12 col-md-5">
