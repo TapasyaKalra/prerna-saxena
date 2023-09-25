@@ -22,6 +22,7 @@ export default function Community() {
 						Welcome to Therapeutically Yours. I provide mental
 						health support to south asians globally.
 					</h2>
+					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				{/* 2nd heading */}
 				<div className="row m-top-50">

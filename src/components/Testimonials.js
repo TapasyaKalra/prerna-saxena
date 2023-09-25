@@ -65,6 +65,7 @@ function Testimonials() {
 						Here's what clients at Therapeutically Yours and my
 						fellow professionals have to say…
 					</h2>
+					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 			</div>
 			{/* client testimonials */}
@@ -97,6 +98,7 @@ function Testimonials() {
 			<div className="container">
 				<div className="row m-top-100">
 					<h3 className="fw-bold text-center">write a testimonial</h3>
+					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				<div className="row m-top-50">
 					<div className="col-12 col-md-6 px-5 border-end">

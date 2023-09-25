@@ -32,6 +32,7 @@ function Therapy() {
 						Welcome to Therapeutically Yours. I provide mental
 						health support to south asians globally.
 					</h2>
+					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				{/* notice board */}
 				<div className="row m-top-50 text-center border border-dark w-75 mx-auto pt-3">
