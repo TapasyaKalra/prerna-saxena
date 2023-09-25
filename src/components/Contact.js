@@ -49,7 +49,7 @@ function Contact() {
 				<div className="container">
 					<div className="row m-top-100">
 						<div className="col-12 col-md-6 px-5 border-end">
-							<div className="border border-dark p-3 text-center">
+							<div className="border rounded border-dark p-3 text-center">
 								<p>Work days and timings:</p>
 								<span className="fw-bold">
 									Monday to Friday, 10:00 AM to 06:00 PM IST.
