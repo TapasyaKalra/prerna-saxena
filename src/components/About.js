@@ -31,7 +31,7 @@ function About() {
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				<div className="row m-top-50 justify-content-center">
-					<div className="col-12 col-md-5 align-self-center  order-1 order-lg-1 align-self-center">
+					<div className="col-12 col-md-5 align-self-center   align-self-center">
 						<p>
 							I was born and raised in New Delhi, India. My
 							pronouns are she, her, hers. I am a solopreneur who
@@ -54,10 +54,10 @@ function About() {
 							practice.
 						</p>
 					</div>
-					<div className="col-12 col-md-5  order-3 order-lg-2 align-self-center">
+					<div className="col-12 col-md-5 align-self-center">
 						<img src="assets\images\about\biography1.JPG" alt="" />
 					</div>
-					<div className="col-12 col-md-5 align-self-center order-2 order-lg-3 ">
+					<div className="col-12 col-md-5 align-self-center ">
 						<p>
 							I live a minimalist and essentialist lifestyle. I
 							love to travel; it helps me to expand my worldview
@@ -74,7 +74,7 @@ function About() {
 							languages, and learning new things.
 						</p>
 					</div>
-					<div className="col-12 col-md-5 order-4 order-lg-4 m-top-50 align-self-center">
+					<div className="col-12 col-md-5  m-top-50 align-self-center">
 						<img src="assets\images\about\biography2.jpeg" alt="" />
 					</div>
 				</div>
@@ -86,10 +86,10 @@ function About() {
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				<div className="row m-top-50 justify-content-center">
-					<div className="col-12 col-md-5  order-3 order-lg-1 align-self-center">
+					<div className="col-12 col-md-5  align-self-center">
 						<img src="assets\images\about\education.jpeg" alt="" />
 					</div>
-					<div className="col-12 col-md-5 align-self-center  order-1 order-lg-2">
+					<div className="col-12 col-md-5 align-self-center  ">
 						<p>
 							I hold a Master of Science degree in Clinical and
 							Health Psychology (United Kingdom), and Bachelor of
@@ -105,13 +105,13 @@ function About() {
 							for volunteer services.
 						</p>
 					</div>
-					<div className="col-12 col-md-5 order-4 order-lg-3 m-top-50 align-self-center">
+					<div className="col-12 col-md-5 m-top-50 align-self-center">
 						<img
 							src="assets\images\about\orientation.jpeg"
 							alt=""
 						/>
 					</div>
-					<div className="col-12 col-md-5 align-self-center order-2 order-lg-4 ">
+					<div className="col-12 col-md-5 align-self-center">
 						<p>
 							As a trauma-informed clinician, I believe in doing
 							deep work in therapy. My approach in therapy is
@@ -126,7 +126,7 @@ function About() {
 							purpose in life.
 						</p>
 					</div>
-					<div className="col-12 col-md-10 order-5 m-top-50">
+					<div className="col-12 col-md-10 m-top-50">
 						<p>
 							I appreciate and value the uniqueness, in
 							characteristics and life journeys, that each client
