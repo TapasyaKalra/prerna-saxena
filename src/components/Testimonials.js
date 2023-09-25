@@ -107,9 +107,12 @@ function Testimonials() {
 							process with me, or a colleague who has worked
 							together in any professional capacity, please leave
 							a testimonial in the box. I'll be happy to hear from
-							you. Disclaimer: Name and email address is only
-							being asked for my knowledge. I respect your privacy
-							and promise to maintain it. When the testimonial is
+							you.
+						</p>
+						<p>
+							Disclaimer: Name and email address is only being
+							asked for my knowledge. I respect your privacy and
+							promise to maintain it. When the testimonial is
 							shared on the website, social media or any other
 							platform for professional purposes, your name will
 							always remain anonymous.
