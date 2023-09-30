@@ -1,75 +1,79 @@
-$primary : #b5cfe8;
-$secondary:#00102E;
-$dark:#00102E;
-$light:#F3F3F3;
-$font-size-base:1.1rem;
+$primary: #b5cfe8;
+$secondary: #00102e;
+$dark: #00102e;
+$light: #f3f3f3;
+$font-size-base: 1.1rem;
 @font-face {
-    font-family: lora;
-    src: url(css/lora/Lora-Regular.ttf);
-  }
+	font-family: lora;
+	src: url(css/lora/Lora-Regular.ttf);
+}
 @font-face {
-    font-family: halimun;
-    src: url(css/halimun/Halimun.ttf);
-  }
-*{
-    margin:0px;
-    font-family: lora, sans-serif;
+	font-family: halimun;
+	src: url(css/halimun/Halimun.ttf);
 }
-body{
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding-top: MIN(75px);
+* {
+	margin: 0px;
+	font-family: lora, sans-serif;
 }
-a{
-  text-decoration: none !important
+body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding-top: MIN(75px);
 }
-.m-top-100{
-  margin-top: 100px !important
+a {
+	text-decoration: none !important;
 }
-.m-bottom-100{
-  margin-bottom: 100px !important
+.m-top-100 {
+	margin-top: 100px !important;
 }
-.m-top-50{
-  margin-top: 50px !important
+.m-bottom-100 {
+	margin-bottom: 100px !important;
 }
-.active{
-  text-decoration: underline solid #E4EDFF 1px !important;
-  text-underline-offset:7px;
+.m-top-50 {
+	margin-top: 50px !important;
 }
-h2,h3{
-  color: #00102E !important;
+.active {
+	text-decoration: underline solid #e4edff 1px !important;
+	text-underline-offset: 7px;
 }
-.heading-underline{
-  width: 15vw !important;
+h2,
+h3 {
+	color: #00102e !important;
 }
-#navigation-title{
-  font-family: halimun, sans-serif;
-  font-size: 1.2rem !important;
+.heading-underline {
+	width: 15vw !important;
 }
-@media (max-width: 768px){
-  .col-md-6,.col-md-5{
-    padding-bottom:50px
-  }
-
+#navigation-title {
+	font-family: halimun, sans-serif;
+	font-size: 1.2rem !important;
 }
-@media (max-width: 992px){
-  .col-lg-5{
-    padding-bottom:50px
-  }
-
+@media (max-width: 768px) {
+	.col-md-6,
+	.col-md-5 {
+		padding-bottom: 50px;
+	}
 }
-@media (max-width: 500px){
-  #navigation-title{
-    font-size: 0.8rem !important;
-  }
-
+@media (max-width: 992px) {
+	.col-lg-5 {
+		padding-bottom: 50px;
+	}
 }
-@media (max-width: 400px){
-  #navigation-title{
-    font-size: 0.6rem !important;
-  }
-
+@media (max-width: 500px) {
+	#navigation-title {
+		font-size: 0.8rem !important;
+	}
+}
+@media (max-width: 400px) {
+	#navigation-title {
+		font-size: 0.6rem !important;
+	}
+}
+.dropdown-item {
+	font-size: 1rem;
+}
+p {
+	font-size: 1rem;
 }
 @import "node_modules/bootstrap/scss/bootstrap";
