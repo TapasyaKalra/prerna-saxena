@@ -17,8 +17,8 @@ export default function Community() {
 			{/* headings */}
 			<div className="container">
 				{/* main heading */}
-				<div className="row m-top-50">
-					<h2 className="text-center fw-bold">
+				<div className="row m-top-50 w-75 mx-auto">
+					<h2 className="text-center fw-bold ">
 						Welcome to Therapeutically Yours. I provide mental
 						health support to south asians globally.
 					</h2>
@@ -26,14 +26,14 @@ export default function Community() {
 				</div>
 				{/* 2nd heading */}
 				<div className="row m-top-50">
-					<p className="fw-bold">
+					<h4 className="fw-bold text-center">
 						Here are some community services currently active at
 						Therapeutically Yours.
-					</p>
+					</h4>
 				</div>
 			</div>
 			{/* content */}
-			<div className="container">
+			<div className="  max-width container ps-4 ps-4">
 				{/* support groups */}
 				<div className="row m-top-50 ">
 					<h2 className="fw-bold">Support Groups</h2>
@@ -96,7 +96,7 @@ export default function Community() {
 				<div className="row m-top-50 ">
 					<h2 className="fw-bold">Book Club</h2>
 				</div>
-				<div className="row m-top-50 ">
+				<div className="row m-top-50 w-75 mx-auto">
 					<p>
 						For people who love to read and want to make it a
 						better, interactive, more insightful and supportive
@@ -123,7 +123,7 @@ export default function Community() {
 				<div className="row m-top-50 ">
 					<h2 className="fw-bold">Instagram</h2>
 				</div>
-				<div className="row m-top-50 ">
+				<div className="row m-top-50 w-75 mx-auto">
 					<p>
 						Join me on Instagram @therapeuticallyyours, where I
 						share content as a therapist, writer and human, on
@@ -184,7 +184,7 @@ export default function Community() {
 				<div className="row m-top-50 ">
 					<h2 className="fw-bold">Medium</h2>
 				</div>
-				<div className="row m-top-50 ">
+				<div className="row m-top-50 w-75 mx-auto">
 					<p>
 						Join me on Medium for monthly blogs on topics such as
 						mental health, therapy, self exploration, relationships,

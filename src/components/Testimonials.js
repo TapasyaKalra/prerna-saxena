@@ -60,8 +60,8 @@ function Testimonials() {
 	return (
 		<>
 			<div className="container m-top-100 m-bottom-100">
-				<div className="row">
-					<h2 className="fw-bold text-center">
+				<div className="row w-75 mx-auto">
+					<h2 className="fw-bold text-center ">
 						Here's what clients at Therapeutically Yours and my
 						fellow professionals have to say…
 					</h2>

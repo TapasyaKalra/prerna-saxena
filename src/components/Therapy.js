@@ -27,7 +27,7 @@ function Therapy() {
 
 			<div className="container">
 				{/* heading */}
-				<div className="row m-top-50">
+				<div className="row m-top-50 w-75 mx-auto">
 					<h2 className="text-center fw-bold">
 						Welcome to Therapeutically Yours. I provide mental
 						health support to south asians globally.

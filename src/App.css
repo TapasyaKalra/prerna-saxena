@@ -68,6 +68,9 @@ h3,
 p {
   font-size: 1rem; }
 
+.max-width {
+  max-width: 70%; }
+
 /*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
