@@ -1,3 +1,16 @@
 img {
 	max-width: 100%;
 }
+.therapy__logo {
+	object-fit: contain;
+	max-height: 50vh;
+}
+.insta-button:hover {
+	color: rgb(88, 88, 88);
+}
+.welcome-text {
+	font-size: 1.5rem;
+}
+.btn-community {
+	font-size: 1rem;
+}

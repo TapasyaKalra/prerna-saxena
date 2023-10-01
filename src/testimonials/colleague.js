@@ -2,7 +2,7 @@ var COLLEAGUE = [
 	{
 		id: 1,
 		testimonial:
-			"It is my pleasure to recommend Prerna Saxena. I can say that Prerna carries a unique combination of giftedness, hard work ethics, social and commitment. Her personality makes it easy for her to connect with anyone. In this regard, I believe that she will greatly contribute to wherever she further goes, and also be an inspiration. There’s no doubt in my mind that she will excel in her future pursuits and go on to change many lives for the better.",
+			"It is my pleasure to recommend Prerna Saxena. I can say that Prerna carries a unique combination of giftedness, hard work ethics, social skills and commitment. Her personality makes it easy for her to connect with anyone. In this regard, I believe that she will greatly contribute to wherever she further goes, and also be an inspiration. There's no doubt in my mind that she will excel in her future pursuits and go on to change many lives for the better.",
 	},
 	{
 		id: 2,

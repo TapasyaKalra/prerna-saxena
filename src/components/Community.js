@@ -5,7 +5,7 @@ export default function Community() {
 	return (
 		<>
 			{/* cover image */}
-			<div className="container-fluid">
+			<div className="container-fluid community">
 				<div className="row m-top-50">
 					<img
 						className="therapy__logo"
@@ -18,27 +18,31 @@ export default function Community() {
 			<div className="container">
 				{/* main heading */}
 				<div className="row m-top-50 w-75 mx-auto">
-					<h2 className="text-center fw-bold ">
-						Welcome to Therapeutically Yours. I provide mental
-						health support to south asians globally.
-					</h2>
+					<p className="text-center fw-bold welcome-text">
+						Welcome to Therapeutically Yours.
+						<br />I provide mental health support to south asians
+						globally.
+					</p>
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				{/* 2nd heading */}
 				<div className="row m-top-50">
-					<h4 className="fw-bold text-center">
+					<p className="fw-bold text-center">
 						Here are some community services currently active at
 						Therapeutically Yours.
-					</h4>
+					</p>
 				</div>
 			</div>
 			{/* content */}
-			<div className="  max-width container ps-4 ps-4">
+			<div className=" container ps-4 ps-4">
 				{/* support groups */}
-				<div className="row m-top-50 ">
-					<h2 className="fw-bold">Support Groups</h2>
-				</div>
 				<div className="row m-top-50 justify-content-center">
+					<div className="col-12 col-md-10 text-center">
+						<h2 className="">Support Groups</h2>
+						<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
+					</div>
+				</div>
+				<div className="row m-top-50 justify-content-center ">
 					<div className="col-12 col-md-6">
 						<img
 							src="assets\images\support-groups\ST1.png"
@@ -48,12 +52,12 @@ export default function Community() {
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://forms.gle/UPTZd4CKpjPCeszf8"
-							className="btn btn-outline-primary text-dark w-100"
+							className="btn-community btn btn-outline-primary text-dark w-100"
 						>
-							Register Now
+							register here
 						</a>
 					</div>
-					<div className="col-12 col-md-5">
+					<div className="col-12 col-md-10 m-top-50">
 						<p>
 							I believe that we as human beings have the strength,
 							understanding and care in us to be vulnerable and
@@ -93,112 +97,137 @@ export default function Community() {
 					</div>
 				</div>
 				{/* book club */}
-				<div className="row m-top-50 ">
-					<h2 className="fw-bold">Book Club</h2>
+				<div className="row m-top-50 justify-content-center">
+					<div className="col-12 col-md-10 text-center">
+						<h2 className="">Book Club</h2>
+						<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
+					</div>
 				</div>
-				<div className="row m-top-50 w-75 mx-auto">
-					<p>
-						For people who love to read and want to make it a
-						better, interactive, more insightful and supportive
-						experience; this book club is open for all age groups.
-						Kindly fill in the form below to join the book club.
-					</p>
-					<p className="fst-italic">
-						Disclaimer: Please note, if you are a present or past
-						therapy client at Therapeutically Yours, you are not
-						eligible to join this book club.
-					</p>
-					<div className="text-center">
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://forms.gle/LSEYSyJF319A1eMs8"
-							className="btn btn-outline-primary text-dark"
-						>
-							Register Now
-						</a>
+				<div className="row m-top-50 mx-auto justify-content-center">
+					<div className="col-12 col-md-10 ">
+						<p>
+							For people who love to read and want to make it a
+							better, interactive, more insightful and supportive
+							experience; this book club is open for all age
+							groups. Kindly fill in the form below to join the
+							book club.
+						</p>
+						<p className="fst-italic">
+							Disclaimer: Please note, if you are a present or
+							past therapy client at Therapeutically Yours, you
+							are not eligible to join this book club.
+						</p>
+						<div className="text-center">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://forms.gle/LSEYSyJF319A1eMs8"
+								className="btn-community btn btn-outline-primary text-dark"
+							>
+								register here
+							</a>
+						</div>
 					</div>
 				</div>
 				{/* instagram */}
-				<div className="row m-top-50 ">
-					<h2 className="fw-bold">Instagram</h2>
+				<div className="row m-top-50 justify-content-center">
+					<div className="col-12 col-md-10 text-center">
+						<h2 className="">Instagram</h2>
+						<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
+					</div>
 				</div>
-				<div className="row m-top-50 w-75 mx-auto">
-					<p>
-						Join me on Instagram @therapeuticallyyours, where I
-						share content as a therapist, writer and human, on
-						mental health, therapy, self exploration, relationships,
-						life as we know it and more, based on humour, research,
-						experience and inspiration. I started this page on
-						January 01st, 2022 with an aim to contribute to mental
-						health advocacy, to market my practice and share work
-						updates.
-					</p>
-					<p>Here are some of the themes available on the page:</p>
-					<ul className="mx-3">
-						<li>
-							<span className="fw-bold">All Things Therapy!</span>
-							- A complete guide to the world of therapy.
-						</li>
-						<li>
-							<span className="fw-bold">Let's Talk About</span> -
-							A series focused on psychoeducation about some of
-							the basic aspects of mental health.
-						</li>
-						<li>
-							<span className="fw-bold">
-								Mental health Memes Mondays!
-							</span>{" "}
-							- Weekly dose of memes on anxiety, depression, life,
-							relationships, therapy etc. shared with the goal of
-							creating self-awareness using humour.
-						</li>
-						<li>
-							<span className="fw-bold">
-								Therapist's Thoughts Thursdays!
-							</span>{" "}
-							- Weekly reels on affirmations, therapy, reminders
-							to self, letters from a therapist (me!) etc.
-						</li>
-						<li>
-							<span className="fw-bold">
-								Therapist life Thursdays!
-							</span>{" "}
-							- Random photo dumps of my life once in a few months
-							as an attempt to connect better by helping you know
-							more about me or 'the therapist life'!
-						</li>
-					</ul>
-					<div className="text-center">
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://www.instagram.com/therapeuticallyyours/"
-							className="btn btn-outline-primary text-dark"
-						>
-							Follow here
-						</a>
+				<div className="row m-top-50 mx-auto justify-content-center">
+					<div className="col-12 col-md-10 ">
+						<p>
+							Join me on Instagram @therapeuticallyyours, where I
+							share content as a therapist, writer and human, on
+							mental health, therapy, self exploration,
+							relationships, life as we know it and more, based on
+							humour, research, experience and inspiration. I
+							started this page on January 01st, 2022 with an aim
+							to contribute to mental health advocacy, to market
+							my practice and share work updates.
+						</p>
+						<p>
+							Here are some of the themes available on the page:
+						</p>
+						<ul className="mx-3">
+							<li>
+								<span className="fw-bold">
+									All Things Therapy!
+								</span>
+								- A complete guide to the world of therapy.
+							</li>
+							<li>
+								<span className="fw-bold">
+									Let's Talk About
+								</span>{" "}
+								- A series focused on psychoeducation about some
+								of the basic aspects of mental health.
+							</li>
+							<li>
+								<span className="fw-bold">
+									Mental health Memes Mondays!
+								</span>{" "}
+								- Weekly dose of memes on anxiety, depression,
+								life, relationships, therapy etc. shared with
+								the goal of creating self-awareness using
+								humour.
+							</li>
+							<li>
+								<span className="fw-bold">
+									Therapist's Thoughts Thursdays!
+								</span>{" "}
+								- Weekly reels on affirmations, therapy,
+								reminders to self, letters from a therapist
+								(me!) etc.
+							</li>
+							<li>
+								<span className="fw-bold">
+									Therapist life Thursdays!
+								</span>{" "}
+								- Random photo dumps of my life once in a few
+								months as an attempt to connect better by
+								helping you know more about me or 'the therapist
+								life'!
+							</li>
+						</ul>
+						<div className="text-center">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://www.instagram.com/therapeuticallyyours/"
+								className="btn-community btn btn-outline-primary text-dark"
+							>
+								follow here
+							</a>
+						</div>
 					</div>
 				</div>
 				{/* medium */}
-				<div className="row m-top-50 ">
-					<h2 className="fw-bold">Medium</h2>
+				<div className="row m-top-50 mx-auto justify-content-center">
+					<div className="col-12 col-md-10 text-center">
+						<h2 className="">Medium</h2>
+						<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
+					</div>
 				</div>
-				<div className="row m-top-50 w-75 mx-auto">
-					<p>
-						Join me on Medium for monthly blogs on topics such as
-						mental health, therapy, self exploration, relationships,
-						life as we know it and more.
-					</p>
-					<div className="text-center">
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://medium.com/@therapeuticallyyours"
-							className="btn btn-outline-primary text-dark"
-						>
-							Follow here
-						</a>
+				<div className="row mx-auto justify-content-center">
+					<div className="col-12 col-md-10 ">
+						<p>
+							Join me on Medium for monthly blogs on topics such
+							as mental health, therapy, self exploration,
+							relationships, life as we know it and more.
+						</p>
+						<div className="text-center">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://www.instagram.com/therapeuticallyyours/"
+								className="btn-community btn btn-outline-primary text-dark"
+							>
+								follow here
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

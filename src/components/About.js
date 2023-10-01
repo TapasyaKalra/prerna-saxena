@@ -19,9 +19,10 @@ function About() {
 				<div className="row text-center mt-5 mb-5 justify-content-center">
 					<div className="col-10 col-md-6 border border-dark rounded p-2">
 						<p className="mb-0 fw-bold">
-							Hi, I'm Prerna Saxena. I'm the founder,
-							psychotherapist and mental health advocate at
-							Therapeutically Yours.
+							Hi, I'm Prerna Saxena.
+							<br />
+							I'm a psychotherapist, mental health advocate and
+							writer.
 						</p>
 					</div>
 				</div>
