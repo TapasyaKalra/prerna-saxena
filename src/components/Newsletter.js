@@ -40,15 +40,15 @@ function Newsletter() {
 	return (
 		<>
 			<div className="newsletter container-fluid ">
-				<div className="row">
-					<div className="col-md-6 text-center p-0">
+				<div className="row justify-content-center">
+					<div className="col-md-4 text-center p-0 ">
 						<img
 							src="/assets/images/p3.JPG"
 							alt="newsletter"
 							id="newsletter-img"
 						/>
 					</div>
-					<div className="col-md-6 align-self-center p-5">
+					<div className="col-md-4 align-self-center p-5">
 						<div>
 							<h2 className="text-center">
 								Let's stay in touch!
