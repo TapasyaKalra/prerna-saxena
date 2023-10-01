@@ -3,6 +3,7 @@
 }
 .carousel-inner {
 	border-radius: 2px;
+	background-color: #b5cfe8;
 }
 .testimonials .carousel-caption {
 	top: 50%;
@@ -10,11 +11,27 @@
 	bottom: initial;
 	color: #00102e;
 }
+
 @media (max-width: 768px) {
 	.testimonials .carousel-caption {
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 	}
 	.testimonials .carousel-item {
 		min-height: 70vh;
 	}
+}
+@media (max-width: 576px) {
+	.carousel-inner {
+		overflow: scroll;
+	}
+	.carousel-caption p {
+		font-size: 1rem !important;
+	}
+}
+.carousel-background {
+	min-height: 400px;
+}
+.carousel-caption,
+.carousel-caption p {
+	font-size: 1.2rem;
 }
