@@ -43,7 +43,7 @@ export default function Community() {
 					</div>
 				</div>
 				<div className="row m-top-50 justify-content-center ">
-					<div className="col-12 col-md-6">
+					<div className="col-12 col-md-5">
 						<img
 							src="assets\images\support-groups\ST1.png"
 							alt="support group"
