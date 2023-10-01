@@ -176,7 +176,7 @@ export default function Community() {
 							href="https://www.instagram.com/therapeuticallyyours/"
 							className="btn btn-outline-primary text-dark"
 						>
-							@therapeuticallyyours
+							Follow here
 						</a>
 					</div>
 				</div>
@@ -197,7 +197,7 @@ export default function Community() {
 							href="https://medium.com/@therapeuticallyyours"
 							className="btn btn-outline-primary text-dark"
 						>
-							@therapeuticallyyours
+							Follow here
 						</a>
 					</div>
 				</div>

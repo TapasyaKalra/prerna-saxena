@@ -1,10 +1,15 @@
-.contact__header {
-	background: url("../../public/assets/images/xx.jpeg");
-	background-color: black;
-	/* background-repeat: no-repeat; */
-	/* background-size: cover; */
-	background-position: center;
-	min-height: 90vh;
+.contact {
+	.contact__header {
+		background: url("../../public/assets/images/xx.jpeg");
+		background-color: black;
+		/* background-repeat: no-repeat; */
+		/* background-size: cover; */
+		background-position: center;
+		min-height: 90vh;
+	}
+	.contact-link {
+		font-size: 1rem;
+	}
 }
 .contact a {
 	color: black;
@@ -15,9 +20,7 @@
 	font-weight: bolder;
 	background-color: #b5cfe846;
 }
-.contact-link {
-	font-size: 1rem;
-}
+
 @media (max-width: 400px) {
 	.contact-link {
 		overflow: scroll;

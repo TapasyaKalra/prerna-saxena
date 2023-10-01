@@ -1,8 +1,15 @@
-.therapy__logo{
-    object-fit: contain;
-    max-height:50vh;
-}
-.insta-button:hover{
-    color:rgb(88, 88, 88)
+.therapy {
+	.therapy__logo {
+		object-fit: contain;
+		max-height: 50vh;
+	}
+	.insta-button:hover {
+		color: rgb(88, 88, 88);
+	}
 }
 
+@media (min-width: 576px) {
+	.therapy .notice-board {
+		width: 75%;
+	}
+}

@@ -35,7 +35,7 @@ function Therapy() {
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				{/* notice board */}
-				<div className="row m-top-50 text-center border rounded border-dark w-75 mx-auto pt-3">
+				<div className="row m-top-50 text-center border rounded border-dark mx-auto pt-3 notice-board">
 					<p>
 						Please fill in the form for your preferred modality
 						below. I'll reach out to you via email within 48 work

@@ -47,8 +47,8 @@ function Contact() {
 			<div className="contact m-bottom-100">
 				<div className="container-fluid contact__header"></div>
 				<div className="container">
-					<div className="row m-top-100">
-						<div className="col-12 col-md-6 px-5 border-end">
+					<div className="row m-top-100 align-items-center ">
+						<div className="col-12 col-md-6 px-5 pb-0 border-end">
 							<div className="border rounded border-dark p-3 text-center">
 								<p>Work days and timings:</p>
 								<span className="fw-bold">
@@ -57,53 +57,51 @@ function Contact() {
 							</div>
 
 							<br />
-							<span className="fw-bold">Contact Details:</span>
-							<br />
-							<div className="w-100">
-								<a
-									className="btn btn-outline-primary contact-link w-100"
-									target="_blank"
-									rel="noopener noreferrer"
-									href="mailto:therapeuticallyyoursprerna@gmail.com"
-								>
-									<FontAwesomeIcon
-										className="text-primary"
-										icon={faEnvelope}
-										size="xl"
-									/>
-									&nbsp;therapeuticallyyoursprerna@gmail.com
-								</a>
+							<div className="d-flex justify-content-evenly">
+								<div className="">
+									<a
+										className="btn btn-outline-primary contact-link"
+										target="_blank"
+										rel="noopener noreferrer"
+										href="mailto:therapeuticallyyoursprerna@gmail.com"
+									>
+										<FontAwesomeIcon
+											className="text-primary"
+											icon={faEnvelope}
+											size="xl"
+										/>
+									</a>
+								</div>
+								<div className="">
+									<a
+										className=" btn btn-outline-primary contact-link"
+										target="_blank"
+										rel="noopener noreferrer"
+										href="https://instagram.com/therapeuticallyyours"
+									>
+										<FontAwesomeIcon
+											className="text-primary"
+											icon={faInstagram}
+											size="xl"
+										/>
+									</a>
+								</div>
+								<div className="">
+									<a
+										className=" btn btn-outline-primary contact-link"
+										target="_blank"
+										rel="noopener noreferrer"
+										href="https://medium.com/@therapeuticallyyours"
+									>
+										<FontAwesomeIcon
+											className="text-primary hover"
+											icon={faMedium}
+											size="xl"
+										/>
+									</a>
+								</div>
 							</div>
-							<div className="w-100">
-								<a
-									className=" btn btn-outline-primary contact-link w-100"
-									target="_blank"
-									rel="noopener noreferrer"
-									href="https://instagram.com/therapeuticallyyours"
-								>
-									<FontAwesomeIcon
-										className="text-primary"
-										icon={faInstagram}
-										size="xl"
-									/>
-									&nbsp;@therapeuticallyyours
-								</a>
-							</div>
-							<div className="w-100">
-								<a
-									className=" btn btn-outline-primary contact-link w-100"
-									target="_blank"
-									rel="noopener noreferrer"
-									href="https://medium.com/@therapeuticallyyours"
-								>
-									<FontAwesomeIcon
-										className="text-primary hover"
-										icon={faMedium}
-										size="xl"
-									/>
-									&nbsp;@therapeuticallyyours
-								</a>
-							</div>
+
 							<br />
 							<p>
 								If you have any further questions, or are
@@ -112,10 +110,6 @@ function Contact() {
 								emails will be answered within 48 work hours.
 							</p>
 							<p>I look forward to hearing from you!</p>
-							<br />
-							<br />
-
-							<br />
 						</div>
 						<div className="col-12 col-md-6 px-5">
 							<form onSubmit={handleSubmit}>
@@ -156,7 +150,7 @@ function Contact() {
 									<textarea
 										name="message"
 										id="message"
-										rows="7"
+										rows="6"
 										className="form-control"
 										required
 										onChange={(e) =>
