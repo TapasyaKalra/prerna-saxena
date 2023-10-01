@@ -142,7 +142,7 @@ function About() {
 				</div>
 				{/* Notice Board */}
 				<div className="row text-center mt-5 mb-5 justify-content-center">
-					<div className="col-12 col-md-10 border border-dark rounded p-3">
+					<div className="col-12 col-md-8 border border-dark rounded p-3">
 						<p className="mb-0 fw-bold">
 							You can sign up for your preferred services from the
 							respective pages on this website.
