@@ -16,8 +16,8 @@ function About() {
 			{/* content */}
 			<div className="container ps-4 pe-4">
 				{/* notice box */}
-				<div className="row text-center mt-5 mb-5 justify-content-center">
-					<div className="col-10 col-md-6 border border-dark rounded p-2">
+				<div className="row text-center m-top-100 mb-5 justify-content-center">
+					<div className="col-10 col-md-6 border border-dark rounded py-4">
 						<p className="mb-0 fw-bold">
 							Hi, I'm Prerna Saxena.
 							<br />
@@ -142,13 +142,14 @@ function About() {
 					</div>
 				</div>
 				{/* Notice Board */}
-				<div className="row text-center mt-5 mb-5 justify-content-center">
-					<div className="col-12 col-md-8 border border-dark rounded p-3">
-						<p className="mb-0 fw-bold">
-							You can sign up for your preferred services from the
-							respective pages on this website.
-						</p>
-						<p>
+				<div className="row text-center m-top-100 mb-5 justify-content-center">
+					<div className="col-12 col-md-8 border border-dark rounded py-4 px-4">
+						<p className="mb-0 ">
+							<span className="fw-bold">
+								You can sign up for your preferred services from
+								the respective pages on this website.
+							</span>
+							<br />
 							To connect with me for collaborations or paid
 							projects on mental health services, content
 							creation, writing (non-fiction, fiction, articles,

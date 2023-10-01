@@ -6,7 +6,7 @@ function Footer() {
 		<div className=" text-dark mt-5 footer  py-3">
 			<div className="container">
 				<div className="row text-center">
-					<div className="">© Prerna Saxena</div>
+					<div className="footer-text">© Prerna Saxena</div>
 				</div>
 			</div>
 		</div>

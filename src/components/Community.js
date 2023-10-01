@@ -153,43 +153,53 @@ export default function Community() {
 						</p>
 						<ul className="mx-3">
 							<li>
-								<span className="fw-bold">
-									All Things Therapy!
-								</span>
-								- A complete guide to the world of therapy.
+								<p>
+									<span className="fw-bold">
+										All Things Therapy!
+									</span>
+									- A complete guide to the world of therapy.
+								</p>
 							</li>
 							<li>
-								<span className="fw-bold">
-									Let's Talk About
-								</span>{" "}
-								- A series focused on psychoeducation about some
-								of the basic aspects of mental health.
+								<p>
+									<span className="fw-bold">
+										Let's Talk About
+									</span>{" "}
+									- A series focused on psychoeducation about
+									some of the basic aspects of mental health.
+								</p>
 							</li>
 							<li>
-								<span className="fw-bold">
-									Mental health Memes Mondays!
-								</span>{" "}
-								- Weekly dose of memes on anxiety, depression,
-								life, relationships, therapy etc. shared with
-								the goal of creating self-awareness using
-								humour.
+								<p>
+									<span className="fw-bold">
+										Mental health Memes Mondays!
+									</span>{" "}
+									- Weekly dose of memes on anxiety,
+									depression, life, relationships, therapy
+									etc. shared with the goal of creating
+									self-awareness using humour.
+								</p>
 							</li>
 							<li>
-								<span className="fw-bold">
-									Therapist's Thoughts Thursdays!
-								</span>{" "}
-								- Weekly reels on affirmations, therapy,
-								reminders to self, letters from a therapist
-								(me!) etc.
+								<p>
+									<span className="fw-bold">
+										Therapist's Thoughts Thursdays!
+									</span>{" "}
+									- Weekly reels on affirmations, therapy,
+									reminders to self, letters from a therapist
+									(me!) etc.
+								</p>
 							</li>
 							<li>
-								<span className="fw-bold">
-									Therapist life Thursdays!
-								</span>{" "}
-								- Random photo dumps of my life once in a few
-								months as an attempt to connect better by
-								helping you know more about me or 'the therapist
-								life'!
+								<p>
+									<span className="fw-bold">
+										Therapist life Thursdays!
+									</span>{" "}
+									- Random photo dumps of my life once in a
+									few months as an attempt to connect better
+									by helping you know more about me or 'the
+									therapist life'!
+								</p>
 							</li>
 						</ul>
 						<div className="text-center">
@@ -211,7 +221,7 @@ export default function Community() {
 						<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 					</div>
 				</div>
-				<div className="row mx-auto justify-content-center">
+				<div className="row mx-auto justify-content-center m-top-50">
 					<div className="col-12 col-md-10 ">
 						<p>
 							Join me on Medium for monthly blogs on topics such

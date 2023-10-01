@@ -28,14 +28,14 @@ function Therapy() {
 			<div className="container">
 				{/* heading */}
 				<div className="row m-top-50 w-75 mx-auto">
-					<h2 className="text-center fw-bold">
-						Welcome to Therapeutically Yours. I provide mental
+					<h2 className="text-center fw-bold welcome-text">
+						Welcome to Therapeutically Yours. <br />I provide mental
 						health support to south asians globally.
 					</h2>
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				{/* notice board */}
-				<div className="row m-top-50 text-center border rounded border-dark mx-auto pt-3 notice-board">
+				<div className="row m-top-50 text-center border rounded border-dark mx-auto p-4 notice-board">
 					<p>
 						Please fill in the form for your preferred modality
 						below. I'll reach out to you via email within 48 work
@@ -44,7 +44,7 @@ function Therapy() {
 					<p className="fw-bold">
 						Work Hours: Monday - Friday, 10:00 AM - 06:30 PM IST.
 					</p>
-					<p className="fst-italic">
+					<p className="fst-italic mb-0">
 						Disclaimer:
 						<br />
 						This isn't a 24*7 helpline and session appointments need
@@ -118,9 +118,9 @@ function Therapy() {
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://forms.gle/6KbZRafGrtN9bpyt6"
-							className="btn btn-outline-primary text-dark w-100"
+							className="btn-community btn btn-outline-primary text-dark w-100"
 						>
-							Register Here
+							register here
 						</a>
 					</div>
 					<div className="col-12 col-md-5">
@@ -190,9 +190,9 @@ function Therapy() {
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://forms.gle/FMUfwoe47WQBCZQH9"
-							className="btn btn-outline-primary text-dark w-100"
+							className="btn-community btn btn-outline-primary text-dark w-100"
 						>
-							Register Here
+							register here
 						</a>
 					</div>
 					<div className="col-12 col-md-5">
@@ -245,27 +245,29 @@ function Therapy() {
 			</div>
 			<div className="container-fluid bg-primary py-5 m-top-50 m-bottom-100">
 				<div className="row justify-content-center mb-4">
-					<div className="col-12 col-md-4  ">
-						<ul className="m-0">
-							<li>How would I know if I need therapy?</li>
-							<li>What happens in the therapeutic process?</li>
-							<li>What can I expect?</li>
-							<li>How long does therapy last?</li>
-						</ul>
+					<div className="col-12 col-md-10 text-center ">
+						<p className="m-0">
+							How would I know if I need therapy?
+						</p>
+						<p className="m-0">
+							What happens in the therapeutic process?
+						</p>
+						<p className="m-0">What can I expect?</p>
+						<p className="m-0">How long does therapy last?</p>
 					</div>
 				</div>
 				<div className="row justify-content-center ">
-					<div className="col-12 col-md-10 text-center ">
+					<div className="col-12 text-center ">
 						<p>
 							Answers to all the questions mentioned here and many
-							more questions can be found in this free Instagram
-							Guide
+							more questions
+							<br /> can be found in this free Instagram Guide
 						</p>
 						<div className="text-center">
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
-								className="btn btn-light "
+								className="btn-community btn btn-light "
 								href="https://instagram.com/therapeuticallyyours"
 							>
 								<FontAwesomeIcon

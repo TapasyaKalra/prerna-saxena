@@ -61,17 +61,17 @@ function Testimonials() {
 		<>
 			<div className="container m-top-100 m-bottom-100">
 				<div className="row w-75 mx-auto">
-					<h2 className="fw-bold text-center ">
-						Here's what clients at Therapeutically Yours and my
-						fellow professionals have to say…
+					<h2 className="fw-bold text-center welcome-text">
+						Here's what clients at Therapeutically Yours and
+						<br /> my fellow professionals have to say…
 					</h2>
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 			</div>
 			{/* client testimonials */}
 			<div className="container">
-				<div className="row ">
-					<h3 className="fw-bold"> testimonials by clients:</h3>
+				<div className="row text-center">
+					<p className="fw-bold"> testimonials by clients:</p>
 				</div>
 			</div>
 			<div className="container-fluid testimonials m-bottom-100 m-top-50">
@@ -83,8 +83,8 @@ function Testimonials() {
 			</div>
 			{/* colleagues testimonials */}
 			<div className="container">
-				<div className="row ">
-					<h3 className="fw-bold"> testimonials by colleagues:</h3>
+				<div className="row text-center">
+					<p className="fw-bold"> testimonials by colleagues:</p>
 				</div>
 			</div>
 			<div className="container-fluid testimonials m-top-50 m-bottom-100">

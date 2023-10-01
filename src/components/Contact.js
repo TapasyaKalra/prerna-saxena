@@ -52,7 +52,7 @@ function Contact() {
 							<div className="border rounded border-dark p-3 text-center">
 								<p>Work days and timings:</p>
 								<span className="fw-bold">
-									Monday to Friday, 10:00 AM to 06:00 PM IST.
+									Monday to Friday, 10:00 AM to 06:30 PM IST.
 								</span>
 							</div>
 
