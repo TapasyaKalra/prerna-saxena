@@ -232,7 +232,7 @@ export default function Community() {
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
-								href="https://www.instagram.com/therapeuticallyyours/"
+								href="https://medium.com/@therapeuticallyyours"
 								className="btn-community btn btn-outline-primary text-dark"
 							>
 								follow here
