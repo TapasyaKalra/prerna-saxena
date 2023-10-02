@@ -28,10 +28,10 @@ function Therapy() {
 			<div className="container">
 				{/* heading */}
 				<div className="row m-top-50 w-75 mx-auto">
-					<h2 className="text-center fw-bold welcome-text">
+					<p className="text-center fw-bold welcome-text">
 						Welcome to Therapeutically Yours. <br />I provide mental
 						health support to south asians globally.
-					</h2>
+					</p>
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				{/* notice board */}
@@ -69,6 +69,7 @@ function Therapy() {
 									className="w-100"
 									src="assets/images/individual-therapy/IT1.png"
 									alt="First slide"
+									onContextMenu={false}
 								/>
 							</Carousel.Item>
 							<Carousel.Item>

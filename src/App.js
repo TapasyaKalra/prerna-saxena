@@ -11,6 +11,9 @@ import ScrollToTop from "./components/ScrollToTop";
 import Community from "./components/Community";
 
 function App() {
+	document.addEventListener("contextmenu", (e) => {
+		e.preventDefault();
+	});
 	return (
 		<div className="app">
 			<BrowserRouter>
