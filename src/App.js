@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import ScrollToTop from "./components/ScrollToTop";
 import Community from "./components/Community";
+import Writing from "./components/Writing";
 
 function App() {
 	document.addEventListener("contextmenu", (e) => {
@@ -25,6 +26,7 @@ function App() {
 					<Route path="/contact" element={<Contact />} />
 
 					<Route path="/therapy" element={<Therapy />} />
+					<Route path="/writing" element={<Writing />} />
 					<Route path="/community" element={<Community />} />
 					<Route path="/newsletter" element={<Newsletter />} />
 					<Route path="/" element={<About />} />
