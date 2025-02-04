@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import "../css/Contact.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faMedium } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "emailjs-com";
 import { useNavigate } from "react-router-dom";
 
 function Contact() {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
+	const [subject, setSubject] = useState("");
 	const [message, setMessage] = useState("");
 	const history = useNavigate();
 	const handleSubmit = (event) => {
@@ -22,7 +20,7 @@ function Contact() {
 			email: email,
 			message: message,
 			date: today,
-			subject: "contact-form",
+			subject: subject,
 		};
 		emailjs
 			.send(
@@ -45,128 +43,108 @@ function Contact() {
 	return (
 		<>
 			<div className="contact m-bottom-100">
-				<div className="container-fluid contact__header"></div>
 				<div className="container">
-					<div className="row m-top-100 align-items-center ">
-						<div className="col-12 col-md-6 px-5 pb-0 border-end">
-							<div className="border rounded border-dark p-3 text-center">
-								<p>Work days and timings:</p>
-								<span className="fw-bold">
-									Monday to Friday, 10:00 AM to 06:30 PM IST.
-								</span>
-							</div>
-
-							<br />
-							<div className="d-flex justify-content-evenly">
-								<div className="">
-									<a
-										className="btn btn-outline-primary contact-link"
-										target="_blank"
-										rel="noopener noreferrer"
-										href="mailto:therapeuticallyyoursprerna@gmail.com"
-									>
-										<FontAwesomeIcon
-											className="text-primary"
-											icon={faEnvelope}
-											size="xl"
-										/>
-									</a>
-								</div>
-								<div className="">
-									<a
-										className=" btn btn-outline-primary contact-link"
-										target="_blank"
-										rel="noopener noreferrer"
-										href="https://instagram.com/therapeuticallyyours"
-									>
-										<FontAwesomeIcon
-											className="text-primary"
-											icon={faInstagram}
-											size="xl"
-										/>
-									</a>
-								</div>
-								<div className="">
-									<a
-										className=" btn btn-outline-primary contact-link"
-										target="_blank"
-										rel="noopener noreferrer"
-										href="https://medium.com/@therapeuticallyyours"
-									>
-										<FontAwesomeIcon
-											className="text-primary hover"
-											icon={faMedium}
-											size="xl"
-										/>
-									</a>
-								</div>
-							</div>
-
-							<br />
-							<p>
-								If you have any further questions, or are
-								inquiring about a collaboration, send me a quick
-								message or drop an email. All messages and
-								emails will be answered within 48 work hours.
-							</p>
-							<p>I look forward to hearing from you!</p>
+					<div className="row m-top-50 mx-auto">
+						<div className="col-12 col-md-6 p-2 text-center mb-5 align-self-center">
+							<img
+								className="contact-img"
+								src="assets/images/contact.jpg"
+								alt="individual-therapy"
+							/>
 						</div>
-						<div className="col-12 col-md-6 px-5">
-							<form onSubmit={handleSubmit}>
-								<div>
-									<label for="name" className="form-label">
-										Name
-									</label>
-									<input
-										type="text"
-										className="form-control"
-										id="name"
-										name="name"
-										required
-										onChange={(e) =>
-											setName(e.target.value)
-										}
-									/>
-								</div>
-								<div>
-									<label for="email" className="form-label">
-										Email
-									</label>
-									<input
-										type="email"
-										className="form-control"
-										id="email"
-										name="email"
-										required
-										onChange={(e) =>
-											setEmail(e.target.value)
-										}
-									/>
-								</div>
-								<div>
-									<label for="message" className="form-label">
-										Message
-									</label>
-									<textarea
-										name="message"
-										id="message"
-										rows="6"
-										className="form-control"
-										required
-										onChange={(e) =>
-											setMessage(e.target.value)
-										}
-									/>
-								</div>
-								<div className="mt-2 text-center">
-									<button
-										className="btn btn-primary"
-										type="submit"
-									>
-										Submit
-									</button>
-								</div>
-							</form>
+						<div className="col-12 col-md-6 align-self-center p-5">
+							<div className="">
+								<p className="fw-bold">Let's work together</p>
+								<p>
+									To work with me or collaborate, kindly drop
+									me a message below. I'll get in touch with
+									you within 48 work hours.
+								</p>
+							</div>
+							<div>
+								<form onSubmit={handleSubmit}>
+									<div>
+										<label
+											for="name"
+											className="form-label"
+										>
+											Name
+										</label>
+										<input
+											type="text"
+											className="form-control"
+											id="name"
+											name="name"
+											required
+											onChange={(e) =>
+												setName(e.target.value)
+											}
+										/>
+									</div>
+									<div>
+										<label
+											for="email"
+											className="form-label"
+										>
+											Email
+										</label>
+										<input
+											type="email"
+											className="form-control"
+											id="email"
+											name="email"
+											required
+											onChange={(e) =>
+												setEmail(e.target.value)
+											}
+										/>
+									</div>
+									<div>
+										<label
+											for="subject"
+											className="form-label"
+										>
+											Subject
+										</label>
+										<input
+											type="subject"
+											className="form-control"
+											id="subject"
+											name="subject"
+											required
+											onChange={(e) =>
+												setSubject(e.target.value)
+											}
+										/>
+									</div>
+									<div>
+										<label
+											for="message"
+											className="form-label"
+										>
+											Message
+										</label>
+										<textarea
+											name="message"
+											id="message"
+											rows="6"
+											className="form-control"
+											required
+											onChange={(e) =>
+												setMessage(e.target.value)
+											}
+										/>
+									</div>
+									<div className="mt-2 text-center">
+										<button
+											className="btn btn-primary"
+											type="submit"
+										>
+											Submit
+										</button>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>

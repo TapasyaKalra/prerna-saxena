@@ -42,6 +42,11 @@ function Navigation() {
 								</NavLink>
 							</Nav.Link>
 							<Nav.Link eventKey="2">
+								<NavLink className="nav-link" to="/therapy">
+									Therapy
+								</NavLink>
+							</Nav.Link>
+							<Nav.Link eventKey="3">
 								<NavLink
 									className="nav-link"
 									to="/testimonials"
@@ -49,39 +54,8 @@ function Navigation() {
 									Testimonials
 								</NavLink>
 							</Nav.Link>
-							{/* <NavDropdown
-								title="Services"
-								id="servicesDropdown"
-								className="nav-link nav-dropdown"
-								eventKey="3"
-							>
-								<div className="blur-effect">
-									<NavDropdown.Item
-										href="/therapy"
-										className="nav-dropdown-item "
-									>
-										Therapy
-									</NavDropdown.Item>
-									<NavDropdown.Item
-										href="/writing"
-										className="nav-dropdown-item "
-									>
-										Writing
-									</NavDropdown.Item>
-									<NavDropdown.Item
-										href="/community"
-										className="nav-dropdown-item"
-									>
-										Community
-									</NavDropdown.Item>
-								</div>
-							</NavDropdown>
+
 							<Nav.Link eventKey="4">
-								<NavLink className="nav-link" to="/newsletter">
-									Newsletter
-								</NavLink>
-							</Nav.Link> */}
-							<Nav.Link eventKey="5">
 								<NavLink className="nav-link" to="/contact">
 									Contact
 								</NavLink>

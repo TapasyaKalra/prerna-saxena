@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
 import "../css/About.css";
 // import { Link } from 'react-router-dom'
-// import Dropdown from "react-bootstrap/Dropdown";
+import Dropdown from "react-bootstrap/Dropdown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function About() {
 	useEffect(() => {
@@ -15,147 +18,205 @@ function About() {
 			</div>
 			{/* content */}
 			<div className="container ps-4 pe-4">
-				{/* notice box */}
-				<div className="row text-center m-top-100 mb-5 justify-content-center">
-					<div className="col-10 col-md-6 border border-dark rounded py-4">
-						<p className="mb-0 fw-bold">
-							Hi, I'm Prerna Saxena.
-							<br />
-							I'm a psychotherapist, mental health advocate and
-							writer.
-						</p>
-					</div>
-				</div>
 				{/* Biography */}
-				<div className="row  m-top-100">
+				{/* <div className="row  m-top-100">
 					<h2 className="text-center">biography</h2>
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
-				</div>
-				<div className="row m-top-50 justify-content-center">
-					<div className="col-12 col-md-5 align-self-center   align-self-center">
+				</div> */}
+				<div className="row m-top-100 justify-content-center">
+					<div className="col-12">
 						<p>
-							I was born and raised in New Delhi, India. My
-							pronouns are she, her, hers. I am a solopreneur who
-							is passionate about supporting people and seeing
-							change, and I am filled with gratitude for the work
-							I get to do everyday.
+							Hi, I am Prerna, a psychotherapist providing mental
+							health support to South Asians globally. My pronouns
+							are she, her, hers.
 						</p>{" "}
 						<p>
-							My interest in psychology stems from my purpose in
-							life, my experience of navigating through life and
-							relationships with others and myself, and
-							continually learning what it means to be human.
+							My interest in psychology stems from my curiosity
+							about how the human mind and body function and what
+							makes people who they are. I decided to become a
+							therapist at a young age, as I determined that my
+							purpose in life is to support people. I am
+							passionate about facilitating change and advocating
+							for mental health. I create content on Instagram
+							related to mental health, therapy, self-exploration,
+							relationships, life as we know it, and more.
 						</p>
 						<p>
-							I provide mental health support to south asians
-							globally through various mental health services at
-							Therapeutically Yours, my online private practice. I
-							am also a mental health practitioner, consultant,
-							writer, content creator and volunteer outside of my
-							practice.
+							I was born and live in New Delhi, India. I lead a
+							minimalist and essentialist lifestyle. I approach
+							life with a sense of humour and like making people
+							laugh. Travelling, nature, rain and food are some of
+							my go-to healing anchors, in addition to the work I
+							put into my life. I carry my kindle (almost)
+							everywhere and enjoy learning about different
+							cultures, and the world.
 						</p>
-					</div>
-					<div className="col-12 col-md-5 align-self-center">
-						<img src="assets\images\about\biography1.JPG" alt="" />
-					</div>
-					<div className="col-12 col-md-5 align-self-center ">
-						<p>
-							I live a minimalist and essentialist lifestyle. I
-							love to travel; it helps me to expand my worldview
-							by learning, being inspired, and deepening my
-							respect and appreciation for different cultures. It
-							keeps me grounded and in connection with my
-							authentic self. I feel calm and at peace amidst
-							nature and on rainy days.
-						</p>{" "}
-						<p>
-							I approach life with a sense of humour and enjoy
-							making people laugh. My interests include
-							photography, cinematography, music, dance, art,
-							languages, and learning new things.
-						</p>
-					</div>
-					<div className="col-12 col-md-5  m-top-50 align-self-center">
-						<img src="assets\images\about\biography2.jpeg" alt="" />
 					</div>
 				</div>
 				{/* Theoretical Orientation */}
 				<div className="row m-top-100 ">
-					<h2 className="text-center">
-						education + theoretical orientation
-					</h2>
+					<h2 className="text-center">education qualifications</h2>
 					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 				</div>
 				<div className="row m-top-50 justify-content-center">
-					<div className="col-12 col-md-5  align-self-center">
-						<img src="assets\images\about\education.jpeg" alt="" />
+					<div className="col-12">
+						<Dropdown>
+							<Dropdown.Toggle
+								variant="primary"
+								id="dropdown-basic"
+							>
+								PSYCHOLOGY
+							</Dropdown.Toggle>
+							<Dropdown.Menu>
+								<Dropdown.Item href="#/action-1">
+									Master of Science, Clinical and Health
+									Psychology (United Kingdom)
+								</Dropdown.Item>
+								<Dropdown.Item href="#/action-2">
+									Bachelor of Arts, Psychology (India)
+								</Dropdown.Item>
+							</Dropdown.Menu>
+						</Dropdown>
 					</div>
-					<div className="col-12 col-md-5 align-self-center  ">
-						<p>
-							I hold a Master of Science degree in Clinical and
-							Health Psychology (United Kingdom), and Bachelor of
-							Arts degree in Psychology (India). I have diplomas
-							in Relationship Counselling (CTAA accredited), and
-							Clinical Hypnotherapy (AHA accredited). I also hold
-							additional credentials in QPR GateKeeper Training
-							for Suicide Prevention, Therapeutic Counselling,
-							Psychoanalysis, Neuropsychology; and Master's
-							Certificate in Digital Marketing, Certification in
-							Graphology and many more. I have received awards or
-							recognition from the Delhi Police and UNICEF India
-							for volunteer services.
-						</p>
+					<div className="col-12">
+						<Dropdown>
+							<Dropdown.Toggle
+								variant="primary"
+								id="dropdown-basic"
+							>
+								Courses
+							</Dropdown.Toggle>
+							<Dropdown.Menu>
+								{[
+									{
+										title: "Diploma, Relationship Counselling (CTAA accredited)",
+										href: "#/action-1",
+									},
+									{
+										title: "Diploma, Clinical Hypnotherapy (AHA accredited)",
+										href: "#/action-2",
+									},
+									{
+										title: "Advances in Neuropsychology",
+										href: "#/action-3",
+									},
+									{
+										title: "Cognitive Behavioral Therapy",
+										href: "#/action-4",
+									},
+									{
+										title: "Developmental Psychoanalysis",
+										href: "#/action-5",
+									},
+									{
+										title: "Dialectical Behavioral Therapy",
+										href: "#/action-6",
+									},
+									{
+										title: "Expressive Arts Therapy",
+										href: "#/action-7",
+									},
+									{
+										title: "Gatekeeper Training For Suicide Prevention",
+										href: "#/action-8",
+									},
+									{
+										title: "Identification and Assessment of SLD",
+										href: "#/action-9",
+									},
+									{
+										title: "Identifying and Treating Pathological Narcissism",
+										href: "#/action-10",
+									},
+									{
+										title: "Introduction To Psychoanalytic Trauma Theory",
+										href: "#/action-11",
+									},
+									{
+										title: "Introduction To Schizophrenia",
+										href: "#/action-12",
+									},
+									{
+										title: "Introductory Psychoanalysis",
+										href: "#/action-13",
+									},
+									{
+										title: "Linking Field Theory to Systems Psychodynamics",
+										href: "#/action-14",
+									},
+									{
+										title: "School Mental Health",
+										href: "#/action-15",
+									},
+									{
+										title: "Therapeutic Counselling",
+										href: "#/action-16",
+									},
+								].map((item, index) => (
+									<Dropdown.Item key={index} href={item.href}>
+										{item.title}
+									</Dropdown.Item>
+								))}
+							</Dropdown.Menu>
+						</Dropdown>
 					</div>
-					<div className="col-12 col-md-5 m-top-50 align-self-center">
-						<img
-							src="assets\images\about\orientation.jpeg"
-							alt=""
-						/>
-					</div>
-					<div className="col-12 col-md-5 align-self-center">
-						<p>
-							As a trauma-informed clinician, I believe in doing
-							deep work in therapy. My approach in therapy is
-							eclectic, holistic and collaborative. My therapeutic
-							alliance is grounded in openness, respect, honesty,
-							trust and humour. I consciously work towards
-							providing safe, non-judgemental and free space to my
-							clients. My aim is to help my clients feel
-							empowered, live freely and authentically, thrive in
-							their relationships with themselves and others,
-							experience healing and change, and uncover their
-							purpose in life.
-						</p>
-					</div>
-					<div className="col-12 col-md-10 m-top-50">
-						<p>
-							I appreciate and value the uniqueness, in
-							characteristics and life journeys, that each client
-							brings in with them. I honour the courage and
-							vulnerability it takes to ask for help; to look
-							within and embrace ourselves. I feel gratitude
-							towards my clients for inviting me to work alongside
-							them in their healing journey and to provide support
-							as they encounter various challenges and transitions
-							in life.
-						</p>
+					<div className="col-12">
+						<Dropdown>
+							<Dropdown.Toggle
+								variant="primary"
+								id="dropdown-basic"
+							>
+								MISCELLANEOUS
+							</Dropdown.Toggle>
+							<Dropdown.Menu>
+								{[
+									{
+										title: "Master's Certificate, Digital Marketing",
+										href: "#/action-1",
+									},
+									{
+										title: "Certificate, Handwriting and Signature Analysis",
+										href: "#/action-2",
+									},
+								].map((item, index) => (
+									<Dropdown.Item key={index} href={item.href}>
+										{item.title}
+									</Dropdown.Item>
+								))}
+							</Dropdown.Menu>
+						</Dropdown>
 					</div>
 				</div>
-				{/* Notice Board */}
-				<div className="row text-center m-top-100 mb-5 justify-content-center">
-					<div className="col-12 col-md-8 border border-dark rounded py-4 px-4">
-						<p className="mb-0 ">
-							<span className="fw-bold">
-								You can sign up for your preferred services from
-								the respective pages on this website.
-							</span>
-							<br />
-							To connect with me for collaborations or paid
-							projects on mental health services, content
-							creation, writing (non-fiction, fiction, articles,
-							columns etc.) and more, kindly send me an email at
-							therapeuticallyyoursprerna@gmail.com
-						</p>
+				{/* Contact */}
+				<div className="row m-top-50">
+					<div className="text-center">
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							className="btn-community btn btn-light "
+							href="https://instagram.com/therapeuticallyyours"
+						>
+							<FontAwesomeIcon
+								className="insta-button"
+								icon={faInstagram}
+								size=""
+							/>
+							&nbsp;All Things Therapy
+						</a>
+					</div>
+					<div className="text-center">
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							className="btn-community btn btn-light "
+							href="mailto:prernasaxena.work@gmail.com"
+						>
+							<FontAwesomeIcon
+								className="mail"
+								icon={faEnvelope}
+							/>
+							&nbsp; prernasaxena.work@gmail.com
+						</a>
 					</div>
 				</div>
 			</div>
