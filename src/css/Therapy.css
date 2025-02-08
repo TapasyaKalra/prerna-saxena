@@ -13,3 +13,8 @@
 		width: 75%;
 	}
 }
+@media (min-width: 992px) {
+	.individual-therapy {
+		border-right: solid rgb(201, 200, 200) 1px;
+	}
+}

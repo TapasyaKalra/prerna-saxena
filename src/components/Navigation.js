@@ -23,7 +23,7 @@ function Navigation() {
 							id="navigation-title"
 						>
 							{/* -<img src="assets/images/logo/TY-logo/1.png" alt="" className="header__logo me-3" /> */}
-							Therapeutically Yours, Prerna
+							Prerna Saxena
 						</Navbar.Brand>
 					</Link>
 
@@ -47,15 +47,6 @@ function Navigation() {
 								</NavLink>
 							</Nav.Link>
 							<Nav.Link eventKey="3">
-								<NavLink
-									className="nav-link"
-									to="/testimonials"
-								>
-									Testimonials
-								</NavLink>
-							</Nav.Link>
-
-							<Nav.Link eventKey="4">
 								<NavLink className="nav-link" to="/contact">
 									Contact
 								</NavLink>

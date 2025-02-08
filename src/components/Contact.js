@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "../css/Contact.css";
 import emailjs from "emailjs-com";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function Contact() {
 	const [name, setName] = useState("");
@@ -54,7 +57,7 @@ function Contact() {
 						</div>
 						<div className="col-12 col-md-6 align-self-center p-5">
 							<div className="">
-								<p className="fw-bold">Let's work together</p>
+								<p className="fw-bold">Let's work together!</p>
 								<p>
 									To work with me or collaborate, kindly drop
 									me a message below. I'll get in touch with
@@ -146,6 +149,36 @@ function Contact() {
 								</form>
 							</div>
 						</div>
+					</div>
+					{/* Contact */}
+					<div className="row m-top-50">
+						<div className="d-grid gap-2 col-2 mx-auto text-center">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								className="btn-community btn btn-light "
+								href="https://instagram.com/therapeuticallyyours"
+							>
+								<FontAwesomeIcon
+									className="insta-button"
+									icon={faInstagram}
+									size="2xl"
+								/>
+							</a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								className="btn-community btn btn-light  "
+								href="mailto:prernasaxena.work@gmail.com"
+							>
+								<FontAwesomeIcon
+									className="mail"
+									icon={faEnvelope}
+									size="2xl"
+								/>
+							</a>
+						</div>
+						<div className="text-center"></div>
 					</div>
 				</div>
 			</div>

@@ -10,56 +10,6 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function Testimonials() {
-	// const [name, setName] = useState("");
-	// const [email, setEmail] = useState("");
-	// const [message, setMessage] = useState("");
-	// const history = useNavigate();
-	// const addTestimonial = async (message, name, email, today) => {
-	// 	try {
-	// 		const docRef = await addDoc(collection(db, "testimonials-saved"), {
-	// 			message: message,
-	// 			name: name,
-	// 			email: email,
-	// 			date: today,
-	// 		});
-	// 		console.log("Document written with ID: ", docRef.id);
-	// 	} catch (e) {
-	// 		console.error("Error adding document: ", e);
-	// 	}
-	// };
-	// const handleSubmit = (event) => {
-	// 	event.preventDefault();
-	// 	var date = new Date();
-	// 	var today =
-	// 		date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear();
-
-	// 	addTestimonial(message, name, email, today);
-
-	// 	const data = {
-	// 		name: name,
-	// 		email: email,
-	// 		message: message,
-	// 		date: today,
-	// 		subject: "testimonial",
-	// 	};
-	// 	emailjs
-	// 		.send(
-	// 			"service_rsfn4v6",
-	// 			"template_aazx6nq",
-	// 			data,
-	// 			"Mys8uxIrCv4hkzxVU"
-	// 		)
-	// 		.then(
-	// 			(result) => {
-	// 				console.log(result.text);
-	// 			},
-	// 			(error) => {
-	// 				console.log(error.text);
-	// 			}
-	// 		);
-	// 	alert("Thank You");
-	// 	history("/", { replace: true });
-	// };
 	return (
 		<>
 			<div className="testimonials">
