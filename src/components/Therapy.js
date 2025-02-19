@@ -4,7 +4,7 @@ import TestimonialCarousel from "./TestimonialCarousel";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+
 import "../css/Testimonials.css";
 function Therapy() {
 	return (
@@ -95,6 +95,7 @@ function Therapy() {
 					<div className="row m-top-100 justify-content-center">
 						<div className="col-12 col-lg-5 text-center individual-therapy">
 							<h2>Individual Therapy</h2>
+							<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 							<a
 								className="btn-community btn btn-light border mt-2"
 								href="https://docs.google.com/forms/d/e/1FAIpQLSdkaY76V9Dpb8HpMla6bK24lH9u4Ry-luGvbCO-49uLMTcoDg/viewform"
@@ -109,6 +110,7 @@ function Therapy() {
 						</div>
 						<div className="col-12 col-lg-5 text-center">
 							<h2>Couples Therapy</h2>
+							<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 							<a
 								className="btn-community btn btn-light border mt-2"
 								href="https://docs.google.com/forms/d/e/1FAIpQLSeKYbsr3k2hQNrdgNFI_n7TEBGfUapO8sr8pxqNkmeXcl4qAw/viewform"
@@ -127,7 +129,7 @@ function Therapy() {
 			<div className="testimonials">
 				<div className="container">
 					<div className="row  m-top-100">
-						<h2 className="text-center">testimonials</h2>
+						<h2 className="text-center">Testimonials</h2>
 						<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 					</div>
 				</div>
@@ -165,9 +167,9 @@ function Therapy() {
 					<div className="row justify-content-center ">
 						<div className="col-12 text-center ">
 							<p>
-								Answers to all the questions mentioned here and
-								many more questions
-								<br /> can be found in this free Instagram Guide
+								Answers to all these questions and more can be
+								found on Instagram in the post 'All Things
+								Therapy'.
 							</p>
 							<div className="text-center">
 								<a
@@ -181,21 +183,7 @@ function Therapy() {
 										icon={faInstagram}
 										size=""
 									/>
-									&nbsp;All Things Therapy
-								</a>
-							</div>
-							<div className="text-center">
-								<a
-									target="_blank"
-									rel="noopener noreferrer"
-									className="btn-community btn btn-light "
-									href="mailto:prernasaxena.work@gmail.com"
-								>
-									<FontAwesomeIcon
-										className="mail"
-										icon={faEnvelope}
-									/>
-									&nbsp; prernasaxena.work@gmail.com
+									&nbsp;@therapeuticallyyours
 								</a>
 							</div>
 						</div>

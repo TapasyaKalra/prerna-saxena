@@ -19,10 +19,6 @@ function About() {
 			{/* content */}
 			<div className="container ps-4 pe-4">
 				{/* Biography */}
-				{/* <div className="row  m-top-100">
-					<h2 className="text-center">biography</h2>
-					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
-				</div> */}
 				<div className="row m-top-100 justify-content-center">
 					<div className="col-12">
 						<p>
@@ -52,173 +48,173 @@ function About() {
 							cultures, and the world.
 						</p>
 					</div>
-				</div>
-				{/* Theoretical Orientation */}
-				<div className="row m-top-100 ">
-					<h2 className="text-center">education qualifications</h2>
-					<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
-				</div>
-				<div className="row m-top-50 justify-content-center">
+					&nbsp;
 					<div className="col-12">
-						<Dropdown>
-							<Dropdown.Toggle
-								variant="primary"
-								id="dropdown-basic"
-							>
-								PSYCHOLOGY
-							</Dropdown.Toggle>
-							<Dropdown.Menu>
-								<Dropdown.Item href="#/action-1">
-									Master of Science, Clinical and Health
-									Psychology (United Kingdom)
-								</Dropdown.Item>
-								<Dropdown.Item href="#/action-2">
-									Bachelor of Arts, Psychology (India)
-								</Dropdown.Item>
-
-								<Dropdown>
-									<Dropdown.Toggle
-										variant="primary"
-										id="dropdown-basic"
-									>
-										Courses
-									</Dropdown.Toggle>
-									<Dropdown.Menu>
-										{[
-											{
-												title: "Diploma, Relationship Counselling (CTAA accredited)",
-												href: "#/nested-action-1",
-											},
-											{
-												title: "Diploma, Clinical Hypnotherapy (AHA accredited)",
-												href: "#/nested-action-2",
-											},
-											{
-												title: "Advances in Neuropsychology",
-												href: "#/nested-action-3",
-											},
-											{
-												title: "Cognitive Behavioral Therapy",
-												href: "#/nested-action-4",
-											},
-											{
-												title: "Developmental Psychoanalysis",
-												href: "#/nested-action-5",
-											},
-											{
-												title: "Dialectical Behavioral Therapy",
-												href: "#/nested-action-6",
-											},
-											{
-												title: "Expressive Arts Therapy",
-												href: "#/nested-action-7",
-											},
-											{
-												title: "Gatekeeper Training For Suicide Prevention",
-												href: "#/nested-action-8",
-											},
-											{
-												title: "Identification and Assessment of SLD",
-												href: "#/nested-action-9",
-											},
-											{
-												title: "Identifying and Treating Pathological Narcissism",
-												href: "#/nested-action-10",
-											},
-											{
-												title: "Introduction To Psychoanalytic Trauma Theory",
-												href: "#/nested-action-11",
-											},
-											{
-												title: "Introduction To Schizophrenia",
-												href: "#/nested-action-12",
-											},
-											{
-												title: "Introductory Psychoanalysis",
-												href: "#/nested-action-13",
-											},
-											{
-												title: "Linking Field Theory to Systems Psychodynamics",
-												href: "#/nested-action-14",
-											},
-											{
-												title: "School Mental Health",
-												href: "#/nested-action-15",
-											},
-											{
-												title: "Therapeutic Counselling",
-												href: "#/nested-action-16",
-											},
-										].map((item, index) => (
-											<Dropdown.Item
-												key={index}
-												href={item.href}
-											>
-												{item.title}
-											</Dropdown.Item>
-										))}
-									</Dropdown.Menu>
-								</Dropdown>
-							</Dropdown.Menu>
-						</Dropdown>
+						<h2 id="education-qualifications" className="fw-bold">
+							education qualifications
+						</h2>
 					</div>
-					<div className="col-12"></div>
-					<div className="col-12">
-						<Dropdown>
-							<Dropdown.Toggle
-								variant="primary"
-								id="dropdown-basic"
-							>
-								MISCELLANEOUS
-							</Dropdown.Toggle>
-							<Dropdown.Menu>
-								{[
-									{
-										title: "Master's Certificate, Digital Marketing",
-										href: "#/action-1",
-									},
-									{
-										title: "Certificate, Handwriting and Signature Analysis",
-										href: "#/action-2",
-									},
-								].map((item, index) => (
-									<Dropdown.Item key={index} href={item.href}>
-										{item.title}
+					<div className="row  justify-content-center dropdown">
+						<div className="col-12">
+							<Dropdown>
+								<Dropdown.Toggle
+									variant="primary"
+									id="dropdown-basic"
+								>
+									PSYCHOLOGY
+								</Dropdown.Toggle>
+								<Dropdown.Menu>
+									<Dropdown.Item href="#/action-1">
+										Master of Science, Clinical and Health
+										Psychology (United Kingdom)
 									</Dropdown.Item>
-								))}
-							</Dropdown.Menu>
-						</Dropdown>
+									<Dropdown.Item href="#/action-2">
+										Bachelor of Arts, Psychology (India)
+									</Dropdown.Item>
+
+									<Dropdown>
+										<Dropdown.Toggle
+											variant="primary"
+											id="dropdown-basic"
+										>
+											Courses
+										</Dropdown.Toggle>
+										<Dropdown.Menu>
+											{[
+												{
+													title: "Diploma, Relationship Counselling (CTAA accredited)",
+													href: "#/nested-action-1",
+												},
+												{
+													title: "Diploma, Clinical Hypnotherapy (AHA accredited)",
+													href: "#/nested-action-2",
+												},
+												{
+													title: "Advances in Neuropsychology",
+													href: "#/nested-action-3",
+												},
+												{
+													title: "Cognitive Behavioral Therapy",
+													href: "#/nested-action-4",
+												},
+												{
+													title: "Developmental Psychoanalysis",
+													href: "#/nested-action-5",
+												},
+												{
+													title: "Dialectical Behavioral Therapy",
+													href: "#/nested-action-6",
+												},
+												{
+													title: "Expressive Arts Therapy",
+													href: "#/nested-action-7",
+												},
+												{
+													title: "Gatekeeper Training For Suicide Prevention",
+													href: "#/nested-action-8",
+												},
+												{
+													title: "Identification and Assessment of SLD",
+													href: "#/nested-action-9",
+												},
+												{
+													title: "Identifying and Treating Pathological Narcissism",
+													href: "#/nested-action-10",
+												},
+												{
+													title: "Introduction To Psychoanalytic Trauma Theory",
+													href: "#/nested-action-11",
+												},
+												{
+													title: "Introduction To Schizophrenia",
+													href: "#/nested-action-12",
+												},
+												{
+													title: "Introductory Psychoanalysis",
+													href: "#/nested-action-13",
+												},
+												{
+													title: "Linking Field Theory to Systems Psychodynamics",
+													href: "#/nested-action-14",
+												},
+												{
+													title: "School Mental Health",
+													href: "#/nested-action-15",
+												},
+												{
+													title: "Therapeutic Counselling",
+													href: "#/nested-action-16",
+												},
+											].map((item, index) => (
+												<Dropdown.Item
+													key={index}
+													href={item.href}
+												>
+													{item.title}
+												</Dropdown.Item>
+											))}
+										</Dropdown.Menu>
+									</Dropdown>
+								</Dropdown.Menu>
+							</Dropdown>
+						</div>
+						<div className="col-12">
+							<Dropdown>
+								<Dropdown.Toggle
+									variant="primary"
+									id="dropdown-basic"
+								>
+									MISCELLANEOUS
+								</Dropdown.Toggle>
+								<Dropdown.Menu>
+									{[
+										{
+											title: "Master's Certificate, Digital Marketing",
+											href: "#/action-1",
+										},
+										{
+											title: "Certificate, Handwriting and Signature Analysis",
+											href: "#/action-2",
+										},
+									].map((item, index) => (
+										<Dropdown.Item
+											key={index}
+											href={item.href}
+										>
+											{item.title}
+										</Dropdown.Item>
+									))}
+								</Dropdown.Menu>
+							</Dropdown>
+						</div>
 					</div>
 				</div>
 				{/* Contact */}
-				<div className="row m-top-50">
-					<div className="d-grid gap-2 col-2 mx-auto text-center">
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							className="btn-community btn btn-light "
-							href="https://instagram.com/therapeuticallyyours"
-						>
-							<FontAwesomeIcon
-								className="insta-button"
-								icon={faInstagram}
-								size="2xl"
-							/>
-						</a>
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							className="btn-community btn btn-light  "
-							href="mailto:prernasaxena.work@gmail.com"
-						>
-							<FontAwesomeIcon
-								className="mail"
-								icon={faEnvelope}
-								size="2xl"
-							/>
-						</a>
-					</div>
-					<div className="text-center"></div>
+				<div className="row m-top-50 justify-content-center">
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						className="btn-community btn btn-light col-3 "
+						href="https://instagram.com/therapeuticallyyours"
+					>
+						<FontAwesomeIcon
+							className="insta-button"
+							icon={faInstagram}
+							size="lg"
+						/>
+					</a>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						className="btn-community btn btn-light  col-3 "
+						href="mailto:prernasaxena.work@gmail.com"
+					>
+						<FontAwesomeIcon
+							className="mail"
+							icon={faEnvelope}
+							size="lg"
+						/>
+					</a>
 				</div>
 			</div>
 		</div>

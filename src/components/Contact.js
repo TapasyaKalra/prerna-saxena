@@ -45,7 +45,7 @@ function Contact() {
 	};
 	return (
 		<>
-			<div className="contact m-bottom-100">
+			<div className="contact ">
 				<div className="container">
 					<div className="row m-top-50 mx-auto">
 						<div className="col-12 col-md-6 p-2 text-center mb-5 align-self-center">
@@ -151,34 +151,31 @@ function Contact() {
 						</div>
 					</div>
 					{/* Contact */}
-					<div className="row m-top-50">
-						<div className="d-grid gap-2 col-2 mx-auto text-center">
-							<a
-								target="_blank"
-								rel="noopener noreferrer"
-								className="btn-community btn btn-light "
-								href="https://instagram.com/therapeuticallyyours"
-							>
-								<FontAwesomeIcon
-									className="insta-button"
-									icon={faInstagram}
-									size="2xl"
-								/>
-							</a>
-							<a
-								target="_blank"
-								rel="noopener noreferrer"
-								className="btn-community btn btn-light  "
-								href="mailto:prernasaxena.work@gmail.com"
-							>
-								<FontAwesomeIcon
-									className="mail"
-									icon={faEnvelope}
-									size="2xl"
-								/>
-							</a>
-						</div>
-						<div className="text-center"></div>
+					<div className="row m-top-50 justify-content-center">
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							className="btn-community btn btn-light col-3 "
+							href="https://instagram.com/therapeuticallyyours"
+						>
+							<FontAwesomeIcon
+								className="insta-button"
+								icon={faInstagram}
+								size="lg"
+							/>
+						</a>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							className="btn-community btn btn-light  col-3 "
+							href="mailto:prernasaxena.work@gmail.com"
+						>
+							<FontAwesomeIcon
+								className="mail"
+								icon={faEnvelope}
+								size="lg"
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
