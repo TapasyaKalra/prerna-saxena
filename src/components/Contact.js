@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import "../css/Contact.css";
 import emailjs from "emailjs-com";
 import { useNavigate } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function Contact() {
 	const [name, setName] = useState("");
@@ -57,7 +54,9 @@ function Contact() {
 						</div>
 						<div className="col-12 col-md-6 align-self-center p-5">
 							<div className="">
-								<p className="fw-bold">Let's work together!</p>
+								<p className="contact-heading">
+									Let's work together!
+								</p>
 								<p>
 									To work with me or collaborate, kindly drop
 									me a message below. I'll get in touch with
@@ -148,34 +147,17 @@ function Contact() {
 									</div>
 								</form>
 							</div>
+							<div className="mt-2 text-center">
+								<a
+									className="btn btn-primary"
+									href="//linktr.ee/therapeuticallyyours"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									all links here
+								</a>
+							</div>
 						</div>
-					</div>
-					{/* Contact */}
-					<div className="row m-top-50 justify-content-center">
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							className="btn-community btn btn-light col-3 "
-							href="https://instagram.com/therapeuticallyyours"
-						>
-							<FontAwesomeIcon
-								className="insta-button"
-								icon={faInstagram}
-								size="lg"
-							/>
-						</a>
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							className="btn-community btn btn-light  col-3 "
-							href="mailto:prernasaxena.work@gmail.com"
-						>
-							<FontAwesomeIcon
-								className="mail"
-								icon={faEnvelope}
-								size="lg"
-							/>
-						</a>
 					</div>
 				</div>
 			</div>

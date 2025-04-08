@@ -20,3 +20,10 @@
 .contact-img {
 	max-height: 80vh;
 }
+.contact-heading {
+	font-weight: 900;
+	font-size: 3.5rem;
+	color: #00102e;
+	text-shadow: 0.5px 0.5px 0 #00102e, -0.5px -0.5px 0 #00102e,
+		0.5px -0.5px 0 #00102e, -0.5px 0.5px 0 #00102e;
+}

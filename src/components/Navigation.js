@@ -22,8 +22,11 @@ function Navigation() {
 							className="text-secondary"
 							id="navigation-title"
 						>
-							{/* -<img src="assets/images/logo/TY-logo/1.png" alt="" className="header__logo me-3" /> */}
-							Prerna Saxena
+							<img
+								src="assets/images/logo.jpg"
+								alt=""
+								className="header__logo me-2"
+							/>
 						</Navbar.Brand>
 					</Link>
 
@@ -38,17 +41,17 @@ function Navigation() {
 									activeClassName="active"
 									aria-current="page"
 								>
-									About
+									about
 								</NavLink>
 							</Nav.Link>
 							<Nav.Link eventKey="2">
 								<NavLink className="nav-link" to="/therapy">
-									Therapy
+									therapy
 								</NavLink>
 							</Nav.Link>
 							<Nav.Link eventKey="3">
 								<NavLink className="nav-link" to="/contact">
-									Contact
+									contact
 								</NavLink>
 							</Nav.Link>
 						</Nav>
