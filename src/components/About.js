@@ -54,7 +54,6 @@ function About() {
 								<Dropdown.Toggle
 									variant="primary"
 									id="dropdown-basic"
-									className="p-0"
 								>
 									psychology
 								</Dropdown.Toggle>
@@ -72,97 +71,93 @@ function About() {
 											variant="primary"
 											id="dropdown-basic"
 										>
-											Courses
+											courses
 										</Dropdown.Toggle>
+										<Dropdown.Menu>
+											{[
+												{
+													title: "Diploma, Relationship Counselling (CTAA accredited)",
+													href: "#/action-1",
+												},
+												{
+													title: "Diploma, Clinical Hypnotherapy (AHA accredited)",
+													href: "#/action-2",
+												},
+												{
+													title: "Advances in Neuropsychology",
+													href: "#/action-3",
+												},
+												{
+													title: "Cognitive Behavioral Therapy",
+													href: "#/action-4",
+												},
+												{
+													title: "Developmental Psychoanalysis",
+													href: "#/action-5",
+												},
+												{
+													title: "Dialectical Behavioral Therapy",
+													href: "#/action-6",
+												},
+												{
+													title: "Expressive Arts Therapy",
+													href: "#/action-7",
+												},
+												{
+													title: "Gatekeeper Training For Suicide Prevention",
+													href: "#/action-8",
+												},
+												{
+													title: "Identification and Assessment of SLD",
+													href: "#/action-9",
+												},
+												{
+													title: "Identifying and Treating Pathological Narcissism",
+													href: "#/action-10",
+												},
+												{
+													title: "Introduction To Psychoanalytic Trauma Theory",
+													href: "#/action-11",
+												},
+												{
+													title: "Introduction To Schizophrenia",
+													href: "#/action-12",
+												},
+												{
+													title: "Introductory Psychoanalysis",
+													href: "#/action-13",
+												},
+												{
+													title: "Linking Field Theory to Systems Psychodynamics",
+													href: "#/action-14",
+												},
+												{
+													title: "School Mental Health",
+													href: "#/action-15",
+												},
+												{
+													title: "Therapeutic Counselling",
+													href: "#/action-16",
+												},
+											].map((item, index) => (
+												<Dropdown.Item
+													key={index}
+													href={item.href}
+												>
+													{item.title}
+												</Dropdown.Item>
+											))}
+										</Dropdown.Menu>
 									</Dropdown>
 								</Dropdown.Menu>
 							</Dropdown>
 						</div>
-						<div className="col-12">
-							<span className="text-black">courses</span>
-							<ul className="m-0">
-								{[
-									{
-										title: "Diploma, Relationship Counselling (CTAA accredited)",
-										href: "#/nested-action-1",
-									},
-									{
-										title: "Diploma, Clinical Hypnotherapy (AHA accredited)",
-										href: "#/nested-action-2",
-									},
-									{
-										title: "Advances in Neuropsychology",
-										href: "#/nested-action-3",
-									},
-									{
-										title: "Cognitive Behavioral Therapy",
-										href: "#/nested-action-4",
-									},
-									{
-										title: "Developmental Psychoanalysis",
-										href: "#/nested-action-5",
-									},
-									{
-										title: "Dialectical Behavioral Therapy",
-										href: "#/nested-action-6",
-									},
-									{
-										title: "Expressive Arts Therapy",
-										href: "#/nested-action-7",
-									},
-									{
-										title: "Gatekeeper Training For Suicide Prevention",
-										href: "#/nested-action-8",
-									},
-									{
-										title: "Identification and Assessment of SLD",
-										href: "#/nested-action-9",
-									},
-									{
-										title: "Identifying and Treating Pathological Narcissism",
-										href: "#/nested-action-10",
-									},
-									{
-										title: "Introduction To Psychoanalytic Trauma Theory",
-										href: "#/nested-action-11",
-									},
-									{
-										title: "Introduction To Schizophrenia",
-										href: "#/nested-action-12",
-									},
-									{
-										title: "Introductory Psychoanalysis",
-										href: "#/nested-action-13",
-									},
-									{
-										title: "Linking Field Theory to Systems Psychodynamics",
-										href: "#/nested-action-14",
-									},
-									{
-										title: "School Mental Health",
-										href: "#/nested-action-15",
-									},
-									{
-										title: "Therapeutic Counselling",
-										href: "#/nested-action-16",
-									},
-								].map((item, index) => (
-									<li
-										key={index}
-										href={item.href}
-										className="pb-0 mb-0"
-									>
-										{item.title}
-									</li>
-								))}
-							</ul>
-						</div>
+						<div className="col-12"></div>
 						<div className="col-12">
 							<Dropdown>
 								<Dropdown.Toggle
 									variant="primary"
 									id="dropdown-basic"
-									className="p-0"
 								>
 									miscellaneous
 								</Dropdown.Toggle>

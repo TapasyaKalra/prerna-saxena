@@ -54,9 +54,10 @@ function Contact() {
 						</div>
 						<div className="col-12 col-md-6 align-self-center p-5">
 							<div className="">
-								<p className="contact-heading">
+								<h2 className="text-center">
 									Let's work together!
-								</p>
+								</h2>
+								<br />
 								<p>
 									To work with me or collaborate, kindly drop
 									me a message below. I'll get in touch with

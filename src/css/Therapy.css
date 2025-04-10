@@ -18,30 +18,7 @@
 		border-right: solid rgb(201, 200, 200) 1px;
 	}
 }
-.therapy-header {
-	background: url("../../public/assets/images/therapy-page-header.png");
-	background-color: rgba(0, 0, 0, 0);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	min-height: 10vh;
-	max-height: 100vh;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-.you-matter-header {
-	background: url("../../public/assets/images/after-theoretical-orientation.png");
-	background-color: rgba(0, 0, 0, 0);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	min-height: 20vh;
-	max-height: 100vh;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
+
 /* Small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.therapy-header {
@@ -67,4 +44,7 @@
 		min-height: 50vh;
 		width: 100%;
 	}
+}
+.header-img {
+	width: 100%;
 }

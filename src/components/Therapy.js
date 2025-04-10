@@ -8,7 +8,13 @@ function Therapy() {
 		<>
 			<div className="therapy mt-3">
 				{/* cover image */}
-				<div className="container-fluid therapy-header"></div>
+				<div className="container-fluid p-0">
+					<img
+						src="assets/images/therapy-page-header.png"
+						alt=""
+						className="header-img"
+					/>
+				</div>
 				<div className="container">
 					{/* intro */}
 					<div className="row m-top-50 text-center">
@@ -70,7 +76,15 @@ function Therapy() {
 						</div>
 					</div>
 				</div>
-				<div className="container-fluid you-matter-header"></div>
+
+				{/* cover image */}
+				<div className="container-fluid p-0">
+					<img
+						src="assets/images/after-theoretical-orientation.png"
+						alt=""
+						className="header-img"
+					/>
+				</div>
 				<div className="container">
 					{/* notice board */}
 					<div className="row m-top-50 text-center mx-auto p-4 ">
@@ -88,7 +102,7 @@ function Therapy() {
 						</p>
 					</div>
 					{/* therapy forms */}
-					<div className="row m-top-100 justify-content-center">
+					<div className="row m-top-50 justify-content-center">
 						<div className="col-12 col-lg-5 text-center individual-therapy">
 							<h2>Individual Therapy</h2>
 							<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />

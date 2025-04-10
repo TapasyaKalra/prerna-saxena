@@ -22,11 +22,7 @@ function Navigation() {
 							className="text-secondary"
 							id="navigation-title"
 						>
-							<img
-								src="assets/images/logo.jpg"
-								alt=""
-								className="header__logo me-2"
-							/>
+							Prerna Saxena
 						</Navbar.Brand>
 					</Link>
 

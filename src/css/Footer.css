@@ -9,9 +9,7 @@
 .footer a:hover {
 	color: rgba(0, 0, 0, 0.459);
 }
-.footer {
-	background-color: #ededed37;
-}
+
 .footer-text {
 	font-size: 0.8rem;
 }
