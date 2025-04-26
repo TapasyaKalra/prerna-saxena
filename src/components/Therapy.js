@@ -108,7 +108,7 @@ function Therapy() {
 							<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 							<a
 								className="btn-community btn btn-light border mt-2"
-								href="https://docs.google.com/forms/d/e/1FAIpQLSdkaY76V9Dpb8HpMla6bK24lH9u4Ry-luGvbCO-49uLMTcoDg/viewform"
+								href="https://docs.google.com/forms/d/e/1FAIpQLSexqxTIOV06oEu3WLKJYcZv0tnfBZ_D_fR0kSXLU4SPeWxr9Q/viewform"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -125,7 +125,7 @@ function Therapy() {
 							<hr class="heading-underline mx-auto border border-primary border-3 opacity-100" />
 							<a
 								className="btn-community btn btn-light border mt-2"
-								href="https://docs.google.com/forms/d/e/1FAIpQLSeKYbsr3k2hQNrdgNFI_n7TEBGfUapO8sr8pxqNkmeXcl4qAw/viewform"
+								href="https://docs.google.com/forms/d/e/1FAIpQLSczegFntJH32wrSe8edXt-UHK7M5Q5Bkt7nvH3FqhzHds7Zbg/viewform"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
